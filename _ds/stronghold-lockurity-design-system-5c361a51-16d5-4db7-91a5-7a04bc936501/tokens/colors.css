@@ -1,0 +1,41 @@
+:root {
+  /* Brand & accent — one accent, no second */
+  --sl-primary: #00d992;
+  --sl-primary-soft: #2fd6a1;
+  --sl-primary-deep: #10b981;
+  --sl-on-primary: #101010;
+
+  /* Surface — dark canvas only, no light-mode counterpart */
+  --sl-canvas: #101010;
+  --sl-canvas-soft: #1a1a1a;
+  --sl-hairline: #3d3a39;
+  --sl-hairline-soft: #b8b3b0;
+
+  /* Text */
+  --sl-ink: #f2f2f2;
+  --sl-ink-strong: #ffffff;
+  --sl-body: #bdbdbd;
+  --sl-mute: #8b949e;
+  --sl-canvas-text-soft: #f5f6f7;
+
+  /* Ornament */
+  --sl-dashed-rule: rgba(79, 93, 117, 0.4);
+
+  /* Semantic aliases — marketing surface uses primary for success,
+     mute grey for missing/empty. Error/warning are reserved for in-product docs. */
+  --sl-surface: var(--sl-canvas);
+  --sl-surface-raised: var(--sl-canvas-soft);
+  --sl-surface-card: var(--sl-canvas);
+  --sl-border: var(--sl-hairline);
+  --sl-border-featured: var(--sl-primary);
+  --sl-text-heading: var(--sl-ink-strong);
+  --sl-text-default: var(--sl-ink);
+  --sl-text-body: var(--sl-body);
+  --sl-text-caption: var(--sl-mute);
+  --sl-text-code: var(--sl-canvas-text-soft);
+  --sl-text-link: var(--sl-primary-deep);
+  --sl-text-link-hover: var(--sl-primary);
+  --sl-focus-ring: var(--sl-primary-soft);
+  --sl-status-live: var(--sl-primary);
+  --sl-status-missing: var(--sl-body);
+}

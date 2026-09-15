@@ -1,0 +1,25 @@
+:root {
+  --sl-space-xxs: 2px;
+  --sl-space-xs: 4px;
+  --sl-space-sm: 8px;
+  --sl-space-md: 12px;
+  --sl-space-lg: 16px;
+  --sl-space-xl: 20px;
+  --sl-space-2xl: 24px;
+  --sl-space-3xl: 32px;
+  --sl-space-4xl: 40px;
+  --sl-space-5xl: 48px;
+  --sl-space-6xl: 64px;
+
+  /* Semantic layout */
+  --sl-band-padding-y: var(--sl-space-5xl);
+  --sl-band-padding-x: var(--sl-space-3xl);
+  --sl-card-padding: var(--sl-space-2xl);
+  --sl-code-padding: var(--sl-space-xl);
+  --sl-container-max: 1280px;
+  --sl-container-max-wide: 1400px;
+
+  /* Breakpoints (for reference in kits) */
+  --sl-bp-tablet: 768px;
+  --sl-bp-desktop: 1024px;
+}

@@ -1,0 +1,12 @@
+:root {
+  /* Level 0 — flat, full-bleed bands */
+  --sl-elev-0: none;
+  /* Level 1 — hairline; the brand's default elevation */
+  --sl-elev-1-border: 1px solid var(--sl-hairline);
+  /* Level 2 — inset glow on hover / featured cards */
+  --sl-elev-2: 0 0 15px rgba(92, 88, 85, 0.2);
+  /* Level 3 — modal stack, in-product only */
+  --sl-elev-3: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(148, 163, 184, 0.1) inset;
+
+  --sl-transition: 160ms ease; /* @kind other */
+}

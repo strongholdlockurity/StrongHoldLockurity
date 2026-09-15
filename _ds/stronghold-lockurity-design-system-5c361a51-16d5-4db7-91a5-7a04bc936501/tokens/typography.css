@@ -1,0 +1,87 @@
+:root {
+  /* display-xl — hero headline, calm weight 400 */
+  --sl-display-xl-size: 60px;
+  --sl-display-xl-weight: 400;
+  --sl-display-xl-line: 60px;
+  --sl-display-xl-tracking: -0.65px;
+
+  /* display-lg — section headlines */
+  --sl-display-lg-size: 36px;
+  --sl-display-lg-weight: 400;
+  --sl-display-lg-line: 40px;
+  --sl-display-lg-tracking: -0.9px;
+
+  /* display-md — sub-section / card-title displays */
+  --sl-display-md-size: 24px;
+  --sl-display-md-weight: 700;
+  --sl-display-md-line: 32px;
+  --sl-display-md-tracking: -0.6px;
+
+  /* display-sm — card titles in dense grids */
+  --sl-display-sm-size: 20px;
+  --sl-display-sm-weight: 600;
+  --sl-display-sm-line: 28px;
+  --sl-display-sm-tracking: 0;
+
+  /* eyebrow-mono — UPPERCASE tracked label, Inter 600 (not a mono face) */
+  --sl-eyebrow-mono-size: 14px;
+  --sl-eyebrow-mono-weight: 600;
+  --sl-eyebrow-mono-line: 20px;
+  --sl-eyebrow-mono-tracking: 2.52px;
+
+  /* eyebrow-uppercase — larger uppercase eyebrow */
+  --sl-eyebrow-uppercase-size: 18px;
+  --sl-eyebrow-uppercase-weight: 600;
+  --sl-eyebrow-uppercase-line: 28px;
+  --sl-eyebrow-uppercase-tracking: 0.45px;
+
+  /* body */
+  --sl-body-lg-size: 18px;
+  --sl-body-lg-weight: 400;
+  --sl-body-lg-line: 28px;
+
+  --sl-body-md-size: 16px;
+  --sl-body-md-weight: 400;
+  --sl-body-md-line: 26px;
+
+  --sl-body-md-strong-size: 16px;
+  --sl-body-md-strong-weight: 600;
+  --sl-body-md-strong-line: 24px;
+
+  --sl-body-sm-size: 14px;
+  --sl-body-sm-weight: 400;
+  --sl-body-sm-line: 20px;
+
+  --sl-body-sm-strong-size: 14px;
+  --sl-body-sm-strong-weight: 600;
+  --sl-body-sm-strong-line: 23px;
+
+  /* caption */
+  --sl-caption-size: 12px;
+  --sl-caption-weight: 400;
+  --sl-caption-line: 16px;
+
+  --sl-caption-strong-size: 12px;
+  --sl-caption-strong-weight: 500;
+  --sl-caption-strong-line: 16px;
+
+  /* code — SF Mono; 550 is the brand's "almost-bold" mono weight */
+  --sl-code-size: 13px;
+  --sl-code-weight: 400;
+  --sl-code-line: 18px;
+
+  --sl-code-strong-size: 13px;
+  --sl-code-strong-weight: 550;
+  --sl-code-strong-line: 16px;
+
+  /* button */
+  --sl-button-md-size: 16px;
+  --sl-button-md-weight: 600;
+  --sl-button-md-line: 24px;
+
+  /* long-form body line-height used in prose bands */
+  --sl-prose-line: 1.65; /* @kind other */
+
+  /* mobile hero step-down */
+  --sl-display-xl-size-mobile: 32px;
+}

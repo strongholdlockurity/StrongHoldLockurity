@@ -1,0 +1,13 @@
+:root {
+  --sl-radius-none: 0px;
+  --sl-radius-xs: 4px;
+  --sl-radius-sm: 6px;
+  --sl-radius-md: 8px;
+  --sl-radius-pill: 9999px;
+  --sl-radius-full: 9999px;
+
+  --sl-border-width: 1px;
+  --sl-border-width-emphasized: 3px;
+  --sl-border-width-featured: 2px;
+  --sl-dashed-border: 1px dashed var(--sl-dashed-rule);
+}
