@@ -78,7 +78,7 @@ function AccessLayers() {
 const METRICS = [
   ["2018", "Operating in Atlanta since 2018, on residential, commercial and industrial work."],
   ["12", "A twelve-person team covering physical hardware, electronics and locksmithing."],
-  ["5", "Service lines: commercial, access control, residential, cabling and mobile automotive."],
+  ["6", "Service lines: commercial, access control, residential, cabling, IT infrastructure and automotive."],
   ["24/7", "Emergency response outside standard hours, seven days a week."],
 ];
 
@@ -99,9 +99,9 @@ const PILLARS = [
 ];
 
 const SECTORS = [
-  ["Residential", "Homes, condos, rentals and personal property.", "Rekeys, high-security locks, entry hardware, smart locks"],
-  ["Commercial", "Offices, retail, restaurants and property management.", "Master key systems, exit devices, access control, repairs"],
-  ["Industrial", "Warehouses, facilities and operational environments.", "Heavy-use hardware, controlled access, key control"],
+  ["Residential", "Homes, condos, rentals and personal property.", "Rekeys, high-security locks, entry hardware, smart locks, home IT"],
+  ["Commercial", "Offices, retail, restaurants and property management.", "Master key systems, exit devices, access control, managed networks"],
+  ["Industrial", "Warehouses, facilities and operational environments.", "Heavy-use hardware, controlled access, industrial IT & network infrastructure"],
   ["Automotive", "Vehicle owners and fleets, wherever the vehicle is.", "Lockouts, keys, ignition-related service, mobile dispatch"],
 ];
 
@@ -115,7 +115,7 @@ function Home() {
           style={{ paddingTop: "var(--sl-space-6xl)", paddingBottom: "var(--sl-space-6xl)" }}
           eyebrow="ATLANTA, GEORGIA — SINCE 2018"
           headline="Every entry point, handled properly."
-          lead="Stronghold Lockurity secures homes, businesses, facilities and vehicles across Atlanta — physical hardware, electronic access control, smart security, structured cabling and locksmithing, from one twelve-person team."
+          lead="Stronghold Lockurity secures homes, businesses, facilities and vehicles across Atlanta — physical hardware, electronic access control, smart security, structured cabling, IT infrastructure and locksmithing, from one twelve-person team."
           actions={
             <React.Fragment>
               <Button href="/contact">Request a security assessment</Button>
@@ -142,8 +142,8 @@ function Home() {
         <ContentBand
           className="sh-band"
           eyebrow="WHAT WE DO"
-          headline="Five service lines, one team."
-          lead="Security problems rarely fit neatly into one category. A commercial rekey turns into an access control question; a new front door turns into a frame problem. We handle all four so nothing gets handed off."
+          headline="Six service lines, one team."
+          lead="Security and operational challenges rarely fit neatly into one category. An access control installation needs a secure VLAN; cabling requires switch configuration. We handle both the physical opening and the digital network."
         >
           <div className="sh-g2">
             {SERVICES.map((s, n) => (

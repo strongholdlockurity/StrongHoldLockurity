@@ -22,7 +22,48 @@ const DISCIPLINES = [
   "Electronic and smart locks", "Residential hardware", "Door and frame repair",
   "Automotive locksmithing", "Mobile dispatch", "Estimating and site survey",
   "Structured cabling and low-voltage", "Termination and testing",
+  "Cyber-security & network hardening", "Cloud implementations & migrations",
+  "Workstation support (Windows, Linux, Mac)", "VLAN segmentation & IoT isolation",
   "Scheduling and client service", "Emergency response", "Key control administration",
+];
+
+const IT_OPTIONS = [
+  {
+    title: "Cyber-Security",
+    tagline: "Threat mitigation & network hardening",
+    desc: "Physical doors and network access are interconnected. We protect your business from both physical breaches and digital threats.",
+    points: [
+      "Firewall deployment & intrusion prevention systems",
+      "VLAN & network segmentation for IoT, cameras & access control",
+      "Zero-trust remote access & secure business VPNs",
+      "Endpoint threat detection & vulnerability assessments",
+      "Automated disaster recovery & encrypted backup systems",
+    ],
+  },
+  {
+    title: "Cloud Implementations",
+    tagline: "Scalable infrastructure & remote management",
+    desc: "Modernize your operations with resilient cloud services that streamline collaboration and enable secure access from anywhere.",
+    points: [
+      "Microsoft 365 & Google Workspace deployment and migrations",
+      "Cloud-managed access control & surveillance systems",
+      "Hybrid cloud storage & multi-site data synchronization",
+      "Identity management, single sign-on (SSO) & multi-factor auth (MFA)",
+      "Cloud disaster recovery & automated failover planning",
+    ],
+  },
+  {
+    title: "Workstation Support",
+    tagline: "Windows, macOS & Linux environments",
+    desc: "Complete cross-platform provisioning, maintenance, and helpdesk support for executive, office, and industrial shop-floor computers.",
+    points: [
+      "Cross-platform OS configuration (Windows, Linux, macOS)",
+      "Hardware provisioning, fleet rollouts & lifecycle management",
+      "Fast remote diagnostics & responsive on-site troubleshooting",
+      "Security hardening, endpoint patch management & anti-malware",
+      "Peripheral, local backup & specialized software configuration",
+    ],
+  },
 ];
 
 function About() {
@@ -34,7 +75,7 @@ function About() {
           className="sh-hero"
           eyebrow="ABOUT"
           headline="Security is only as strong as the people behind it."
-          lead="Stronghold Lockurity is a twelve-person security company in Atlanta. We install physical hardware, build access control systems, and do locksmithing across residential, commercial, industrial and automotive work."
+          lead="Stronghold Lockurity is a twelve-person security and IT infrastructure company in Atlanta. We install physical hardware, build electronic access control, engineer enterprise IT systems, and provide locksmithing across residential, commercial, industrial and automotive work."
           actions={<Button href="/contact">Talk to a security expert</Button>}
           aside={<Reveal delay={120}><Shot priority id="about-hero" variant="sh-shot-wide" src="/assets/stronghold-lockurity-security-technicians-commercial-door-install.jpg" alt="Stronghold Lockurity technicians installing a door closer and electronic lock on a commercial door" placeholder="Image — the team, a service vehicle, or a technician on an install" /></Reveal>}
         />
@@ -46,12 +87,12 @@ function About() {
                 The company started in 2018 doing what most locksmiths do: rekeys, lockouts, hardware swaps. The work changed as the requests did. Clients who called about a broken deadbolt also wanted to know why three former employees still had keys, and whether the reader at the back door could be tied to the same system.
               </p>
               <p className="sh-p">
-                So the capability grew in that direction — from mechanical hardware into electronic access control, from single doors into buildings, and from homes into commercial and industrial properties. The automotive side stayed mobile, because vehicles rarely break down somewhere convenient.
+                So the capability grew in that direction — from mechanical hardware into electronic access control, from single doors into buildings, and from structured cabling into full-stack IT infrastructure, cybersecurity, and cloud implementations. The automotive side stayed mobile, because vehicles rarely break down somewhere convenient.
               </p>
             </Reveal>
             <Reveal delay={80} className="sh-stack" style={{ gap: "var(--sl-space-lg)" }}>
               <p className="sh-p">
-                Today the team is twelve people. That is deliberate. It is large enough to cover commercial installs, emergency calls and mobile automotive work in the same week, and small enough that the person who surveys your building is connected to the person who installs the hardware.
+                Today the team is twelve people. That is deliberate. It is large enough to cover commercial installs, emergency calls, IT rollouts and mobile automotive work in the same week, and small enough that the person who surveys your building is connected to the person who installs the hardware.
               </p>
               <p className="sh-p">
                 We are not a franchise, and we are not a dispatch board selling your call to whoever is nearest. When you phone Stronghold Lockurity you are speaking to the company that does the work.
@@ -66,7 +107,7 @@ function About() {
           className="sh-band"
           eyebrow="THE TEAM"
           headline="Twelve specialists, one set of standards."
-          lead="Physical security, electronics and locksmithing are separate trades that keep landing in the same job. The team is built so that all three are in the room."
+          lead="Physical security, electronics, IT systems and locksmithing are separate trades that keep landing in the same job. The team is built so that all of them are in the room."
         >
           <div className="sh-split-4-6">
             <Reveal><Shot id="about-team" variant="sh-shot-tall" src="/assets/security-technician-access-control-installation-atlanta.jpg" alt="Security technician terminating low-voltage cable at a door controller enclosure" placeholder="Image — team portrait or technicians on site" /></Reveal>
@@ -76,6 +117,43 @@ function About() {
                 {DISCIPLINES.map((d) => (<span className="sh-chip" key={d} style={{ padding: "var(--sl-space-sm) var(--sl-space-md)" }}>{d}</span>))}
               </div>
             </Reveal>
+          </div>
+        </ContentBand>
+
+        <ContentBand
+          className="sh-band"
+          eyebrow="IT SUPPORT & IMPLEMENTATION"
+          headline="Cyber-security, cloud infrastructure, and workstation support."
+          lead="Securing a modern facility requires protecting both physical doors and digital networks. We provide dedicated IT implementation and ongoing cross-platform support across residential, commercial, and industrial environments."
+        >
+          <div className="sh-g3">
+            {IT_OPTIONS.map((it, n) => (
+              <Reveal key={it.title} delay={n * 70}>
+                <Card style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                  <div className="sh-stack" style={{ gap: "var(--sl-space-md)" }}>
+                    <div className="sh-stack" style={{ gap: "var(--sl-space-xs)" }}>
+                      <span className="sh-cap" style={{ color: "var(--sl-primary)", fontFamily: "var(--sl-font-mono)", letterSpacing: "0.8px" }}>
+                        {it.tagline}
+                      </span>
+                      <h3 className="sh-h4">{it.title}</h3>
+                    </div>
+                    <p className="sh-p-sm" style={{ color: "var(--sl-mute)" }}>{it.desc}</p>
+                    <DashedRule />
+                    <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "grid", gap: "var(--sl-space-sm)" }}>
+                      {it.points.map((p) => (
+                        <li key={p} style={{ display: "grid", gridTemplateColumns: "14px minmax(0,1fr)", gap: "var(--sl-space-sm)", color: "var(--sl-body)", fontSize: "var(--sl-body-sm-size)", lineHeight: "var(--sl-body-sm-line)" }}>
+                          <span style={{ color: "var(--sl-primary)", fontFamily: "var(--sl-font-mono)" }}>—</span>
+                          <span>{p}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div style={{ marginTop: "var(--sl-space-xl)" }}>
+                    <Button variant="ghost" href="/contact">Inquire about {it.title}</Button>
+                  </div>
+                </Card>
+              </Reveal>
+            ))}
           </div>
         </ContentBand>
 

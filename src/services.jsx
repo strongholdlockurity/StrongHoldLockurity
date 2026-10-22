@@ -91,11 +91,11 @@ function Services() {
           className="sh-hero"
           eyebrow="SERVICES"
           headline="Security solutions for every point of entry."
-          lead="Five service lines covering physical hardware, electronic access, cabling infrastructure, homes and vehicles. Start with the one closest to your situation — if it sits between two, that is normal, and we handle both."
+          lead="Six service lines covering residential, commercial & industrial IT, physical hardware, electronic access, cabling infrastructure, and vehicles. Start with the one closest to your situation — if it sits between two, that is normal, and we handle both."
           actions={
             <React.Fragment>
               <Button href="/contact">Request a security assessment</Button>
-              <Button variant="outline" href="#commercial">See the five services</Button>
+              <Button variant="outline" href="#it-services">See all six services</Button>
             </React.Fragment>
           }
           note={`24/7 emergency service · ${SITE.phone}`}

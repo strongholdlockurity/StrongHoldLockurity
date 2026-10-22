@@ -1,12 +1,12 @@
 import ClientPage from "@/components/ClientPage";
 
 export const metadata = {
-  title: "About — A twelve-person Atlanta security team | Stronghold Lockurity",
-  description: "Stronghold Lockurity has secured Atlanta homes, businesses, facilities and vehicles since 2018. Twelve specialists across physical security hardware, electronic access control and locksmithing.",
+  title: "About — Security hardware, access control & IT infrastructure | Stronghold Lockurity",
+  description: "Stronghold Lockurity has secured Atlanta homes, businesses, facilities and vehicles since 2018. Twelve specialists across physical hardware, electronic access control, cybersecurity, cloud implementations, and workstation support.",
   alternates: { canonical: "/about" },
-  openGraph: { url: "/about", title: "About — A twelve-person Atlanta security team | Stronghold Lockurity", description: "Stronghold Lockurity has secured Atlanta homes, businesses, facilities and vehicles since 2018. Twelve specialists across physical security hardware, electronic access control and locksmithing.",
+  openGraph: { url: "/about", title: "About — Security hardware, access control & IT infrastructure | Stronghold Lockurity", description: "Stronghold Lockurity has secured Atlanta homes, businesses, facilities and vehicles since 2018. Twelve specialists across physical hardware, electronic access control, cybersecurity, cloud implementations, and workstation support.",
   images: ["https://strongholdlockurity.com/assets/stronghold-lockurity-security-technicians-commercial-door-install.jpg"], },
-  twitter: { title: "About — A twelve-person Atlanta security team | Stronghold Lockurity", description: "Stronghold Lockurity has secured Atlanta homes, businesses, facilities and vehicles since 2018. Twelve specialists across physical security hardware, electronic access control and locksmithing.",
+  twitter: { title: "About — Security hardware, access control & IT infrastructure | Stronghold Lockurity", description: "Stronghold Lockurity has secured Atlanta homes, businesses, facilities and vehicles since 2018. Twelve specialists across physical hardware, electronic access control, cybersecurity, cloud implementations, and workstation support.",
   images: ["https://strongholdlockurity.com/assets/stronghold-lockurity-security-technicians-commercial-door-install.jpg"], },
 };
 

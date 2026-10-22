@@ -1,13 +1,13 @@
 import ClientPage from "@/components/ClientPage";
 
 export const metadata = {
-  title: "Services — Commercial, access control, residential, cabling and automotive security | Stronghold Lockurity Atlanta",
-  description: "Commercial and B2B locksmithing, electronic access control and smart security, residential physical security, structured cabling and low-voltage, and mobile automotive locksmithing in Atlanta, Georgia.",
+  title: "Services — IT services, commercial, access control, residential, cabling and automotive | Stronghold Lockurity Atlanta",
+  description: "Residential, commercial & industrial IT services, commercial locksmithing, electronic access control, residential security, structured cabling, and mobile automotive locksmithing in Atlanta, Georgia.",
   alternates: { canonical: "/services" },
-  openGraph: { url: "/services", title: "Services — Commercial, access control, residential, cabling and automotive security | Stronghold Lockurity Atlanta", description: "Commercial and B2B locksmithing, electronic access control and smart security, residential physical security, structured cabling and low-voltage, and mobile automotive locksmithing in Atlanta, Georgia.",
-  images: ["https://strongholdlockurity.com/assets/commercial-locksmith-atlanta-exit-device-panic-bar.jpg"], },
-  twitter: { title: "Services — Commercial, access control, residential, cabling and automotive security | Stronghold Lockurity Atlanta", description: "Commercial and B2B locksmithing, electronic access control and smart security, residential physical security, structured cabling and low-voltage, and mobile automotive locksmithing in Atlanta, Georgia.",
-  images: ["https://strongholdlockurity.com/assets/commercial-locksmith-atlanta-exit-device-panic-bar.jpg"], },
+  openGraph: { url: "/services", title: "Services — IT services, commercial, access control, residential, cabling and automotive | Stronghold Lockurity Atlanta", description: "Residential, commercial & industrial IT services, commercial locksmithing, electronic access control, residential security, structured cabling, and mobile automotive locksmithing in Atlanta, Georgia.",
+  images: ["https://strongholdlockurity.com/assets/it-services-server-rack-infrastructure-atlanta.jpg"], },
+  twitter: { title: "Services — IT services, commercial, access control, residential, cabling and automotive | Stronghold Lockurity Atlanta", description: "Residential, commercial & industrial IT services, commercial locksmithing, electronic access control, residential security, structured cabling, and mobile automotive locksmithing in Atlanta, Georgia.",
+  images: ["https://strongholdlockurity.com/assets/it-services-server-rack-infrastructure-atlanta.jpg"], },
 };
 
 export default function Page() {

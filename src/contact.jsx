@@ -1,7 +1,15 @@
 "use client";
 import "./boot";
 
-const NEEDS = ["Commercial & B2B locksmithing", "Electronic access control & smart security", "Residential physical security", "Structured cabling & low-voltage", "Mobile automotive security", "Not sure yet"];
+const NEEDS = [
+  "Residential, commercial & industrial IT services",
+  "Commercial & B2B locksmithing",
+  "Electronic access control & smart security",
+  "Residential physical security",
+  "Structured cabling & low-voltage",
+  "Mobile automotive security",
+  "Not sure yet"
+];
 const PROPERTY = ["Residential", "Commercial", "Industrial", "Automotive", "Other"];
 
 function Field({ id, label, optional, error, children, hint }) {
@@ -178,6 +186,22 @@ function Contact() {
                 <div style={{ marginTop: "var(--sl-space-lg)" }}>
                   <Detail label="Phone"><a href={SITE.phoneHref} style={{ fontFamily: "var(--sl-font-mono)", color: "var(--sl-primary)" }}>{SITE.phone}</a></Detail>
                   <Detail label="Email"><a href={`mailto:${SITE.email}`}>{SITE.email}</a></Detail>
+                  <Detail label="Social">
+                    <div className="sh-stack" style={{ gap: "var(--sl-space-xs)" }}>
+                      <a href={SITE.facebook} target="_blank" rel="noopener noreferrer" className="sh-social-link sh-fb" style={{ color: "var(--sl-ink)" }}>
+                        <FacebookIcon width={16} height={16} /> Facebook: StrongholdLockurity
+                      </a>
+                      <a href={SITE.instagram} target="_blank" rel="noopener noreferrer" className="sh-social-link sh-ig" style={{ color: "var(--sl-ink)" }}>
+                        <InstagramIcon width={16} height={16} /> Instagram: @strongholdlockurity
+                      </a>
+                      <a href={SITE.youtube} target="_blank" rel="noopener noreferrer" className="sh-social-link sh-yt" style={{ color: "var(--sl-ink)" }}>
+                        <YouTubeIcon width={17} height={17} /> YouTube: Stronghold Lockurity
+                      </a>
+                      <a href={SITE.tiktok} target="_blank" rel="noopener noreferrer" className="sh-social-link sh-tt" style={{ color: "var(--sl-ink)" }}>
+                        <TikTokIcon width={15} height={15} /> TikTok: @strongholdlockurity
+                      </a>
+                    </div>
+                  </Detail>
                   <Detail label="Address">{SITE.address}</Detail>
                   <Detail label="Hours">{SITE.hours}</Detail>
                   <Detail label="Emergency">{SITE.emergency}, including outside business hours.</Detail>
