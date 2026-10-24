@@ -245,6 +245,15 @@ function Home() {
                 <span className="sh-mono">{SITE.address}</span>
                 <span className="sh-mono">{SITE.hours}</span>
                 <span className="sh-mono" style={{ color: "var(--sl-primary)" }}>{SITE.emergency} · {SITE.phone}</span>
+                <a
+                  href={SITE.qrCode}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="sh-social-link sh-qr"
+                  style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "var(--sl-primary)", fontSize: "var(--sl-caption-size)", marginTop: "var(--sl-space-xs)", width: "fit-content" }}
+                >
+                  <QrCodeIcon width={14} height={14} /> Scan or save digital contact card (QR) ↗
+                </a>
               </div>
             </Reveal>
             <Reveal delay={90}><Shot id="home-atlanta" variant="sh-shot-wide" src="/assets/stronghold-lockurity-atlanta-georgia-security-company.jpg" alt="Atlanta, Georgia skyline seen from a Westside industrial street at dusk" placeholder="Image — Atlanta storefront, building entry or a service vehicle on site" /></Reveal>

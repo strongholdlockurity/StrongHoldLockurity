@@ -186,6 +186,22 @@ function Contact() {
                 <div style={{ marginTop: "var(--sl-space-lg)" }}>
                   <Detail label="Phone"><a href={SITE.phoneHref} style={{ fontFamily: "var(--sl-font-mono)", color: "var(--sl-primary)" }}>{SITE.phone}</a></Detail>
                   <Detail label="Email"><a href={`mailto:${SITE.email}`}>{SITE.email}</a></Detail>
+                  <Detail label="Digital Card">
+                    <div className="sh-stack" style={{ gap: "var(--sl-space-xs)" }}>
+                      <a
+                        href={SITE.qrCode}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="sh-social-link sh-qr"
+                        style={{ display: "inline-flex", alignItems: "center", gap: 6, color: "var(--sl-primary)", fontWeight: 600 }}
+                      >
+                        <QrCodeIcon width={16} height={16} /> Save Contact / Blinq Card ↗
+                      </a>
+                      <span className="sh-cap" style={{ margin: 0 }}>
+                        Scan the QR code or tap to save Tony Brown & Stronghold Lockurity directly to your phone.
+                      </span>
+                    </div>
+                  </Detail>
                   <Detail label="Social">
                     <div className="sh-stack" style={{ gap: "var(--sl-space-xs)" }}>
                       <a href={SITE.facebook} target="_blank" rel="noopener noreferrer" className="sh-social-link sh-fb" style={{ color: "var(--sl-ink)" }}>
@@ -207,6 +223,43 @@ function Contact() {
                   <Detail label="Emergency">{SITE.emergency}, including outside business hours.</Detail>
                 </div>
               </div>
+              <Card style={{ padding: "var(--sl-space-2xl)", textAlign: "center" }}>
+                <div className="sh-stack" style={{ alignItems: "center", gap: "var(--sl-space-md)" }}>
+                  <Eyebrow>DIGITAL BUSINESS CARD</Eyebrow>
+                  <a
+                    href={SITE.qrCode}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sh-qr-box"
+                    title="Scan with phone camera or tap to open digital contact card"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <img
+                      src={SITE.qrImage}
+                      alt="Stronghold Lockurity Blinq Digital Contact QR Code"
+                      width="150"
+                      height="150"
+                      style={{ display: "block" }}
+                    />
+                    <span style={{ fontSize: "var(--sl-caption-size)", color: "var(--sl-mute)", fontWeight: 500, display: "inline-flex", alignItems: "center", gap: 4 }}>
+                      <QrCodeIcon width={13} height={13} /> Scan with camera
+                    </span>
+                  </a>
+                  <div className="sh-stack" style={{ gap: 2, alignItems: "center" }}>
+                    <span style={{ fontWeight: 600, color: "var(--sl-ink)", fontSize: "var(--sl-body-sm-strong-size)" }}>Tony Brown</span>
+                    <span className="sh-cap">Lead Consultant · Operations / Customer Care</span>
+                  </div>
+                  <Button
+                    variant="outline"
+                    href={SITE.qrCode}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ fontSize: "var(--sl-caption-size)", padding: "var(--sl-space-xs) var(--sl-space-lg)" }}
+                  >
+                    Open Blinq Card ↗
+                  </Button>
+                </div>
+              </Card>
               <Card>
                 <h3 className="sh-h4" style={{ marginBottom: "var(--sl-space-md)" }}>What happens next</h3>
                 <ol style={{ margin: 0, paddingLeft: 0, listStyle: "none", display: "grid", gap: "var(--sl-space-md)" }}>

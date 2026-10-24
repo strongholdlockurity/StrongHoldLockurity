@@ -11,6 +11,9 @@ const SITE = {
   instagram: "https://www.instagram.com/strongholdlockurity/",
   youtube: "https://www.youtube.com/channel/UCSVHmn9UshwLsJcywXTAcwA",
   tiktok: "https://www.tiktok.com/@strongholdlockurity",
+  blinq: "https://blinq.me/Gx7liy42p72L?bs=db",
+  qrCode: "https://blinq.me/Gx7liy42p72L?bs=db",
+  qrImage: "/assets/stronghold-contact-qr.svg",
   address: "2454 Scottridge Dr, Atlanta, GA 30318",
   hours: "Monday – Saturday, 9:00 AM – 6:00 PM",
   emergency: "24/7 emergency service",
@@ -263,6 +266,22 @@ function InstagramIcon({ width = 18, height = 18, style, className = "" }) {
   );
 }
 
+function QrCodeIcon({ width = 18, height = 18, style, className = "" }) {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      className={className}
+      style={{ display: "inline-block", verticalAlign: "middle", flexShrink: 0, ...style }}
+    >
+      <path d="M2 2h8v8H2V2zm2 2v4h4V4H4zm10-2h8v8h-8V2zm2 2v4h4V4h-4zM2 14h8v8H2v-8zm2 2v4h4v-4H4zm14-2h2v2h-2v-2zm-4 0h2v4h-2v-4zm6 2h2v6h-4v-2h2v-4zm-4 4h2v2h-2v-2zm-2-2h2v2h-2v-2zm4-2h2v2h-2v-2zM5 5h2v2H5V5zm12 0h2v2h-2V5zM5 17h2v2H5v-2z" />
+    </svg>
+  );
+}
+
 function Header({ active }) {
   const [open, setOpen] = React.useState(false);
   React.useEffect(() => { document.body.style.overflow = open ? "hidden" : ""; }, [open]);
@@ -273,6 +292,18 @@ function Header({ active }) {
           <span>Atlanta, Georgia · Residential, commercial, industrial and automotive security</span>
           <span className="sh-row" style={{ gap: "var(--sl-space-lg)" }}>
             <span className="sh-row" style={{ gap: "var(--sl-space-md)" }}>
+              <a
+                href={SITE.qrCode}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Stronghold Lockurity Digital Card & QR Code"
+                title="Save Contact — Digital Business Card & QR Code"
+                className="sh-social-link sh-qr"
+                style={{ color: "inherit", fontSize: "var(--sl-caption-size)", display: "inline-flex", alignItems: "center", gap: 5 }}
+              >
+                <QrCodeIcon width={13} height={13} />
+                <span className="sh-hide-sm">Digital Card</span>
+              </a>
               <a
                 href={SITE.facebook}
                 target="_blank"
@@ -366,6 +397,15 @@ function Header({ active }) {
           </nav>
           <div className="sh-stack">
             <a href={SITE.phoneHref} className="sh-mono" style={{ color: "var(--sl-primary)" }}>{SITE.phone} · {SITE.emergency}</a>
+            <a
+              href={SITE.qrCode}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="sh-social-link sh-qr"
+              style={{ color: "var(--sl-ink)", display: "inline-flex", alignItems: "center", gap: 8, padding: "var(--sl-space-xs) 0", fontWeight: 500 }}
+            >
+              <QrCodeIcon width={18} height={18} /> Digital Business Card (QR)
+            </a>
             <div style={{ display: "flex", gap: "var(--sl-space-lg)", padding: "var(--sl-space-xs) 0", flexWrap: "wrap" }}>
               <a
                 href={SITE.facebook}
@@ -497,6 +537,16 @@ function Footer() {
             >
               <TikTokIcon width={16} height={16} />
             </a>
+            <a
+              href={SITE.qrCode}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="sh-social-btn sh-qr"
+              aria-label="Stronghold Lockurity Digital Card & QR Code"
+              title="Save Contact — Digital Business Card & QR Code"
+            >
+              <QrCodeIcon width={17} height={17} />
+            </a>
             <span style={{ color: "var(--sl-mute)", fontSize: "var(--sl-caption-size)", marginLeft: "var(--sl-space-xs)" }}>
               Follow our work
             </span>
@@ -508,6 +558,16 @@ function Footer() {
           <span style={{ color: "var(--sl-ink)", fontSize: "var(--sl-body-sm-strong-size)", fontWeight: 600 }}>Contact</span>
           <a href={SITE.phoneHref} style={{ fontFamily: "var(--sl-font-mono)" }}>{SITE.phone}</a>
           <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+          <a
+            href={SITE.qrCode}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sh-social-link sh-qr"
+            style={{ color: "var(--sl-primary)", display: "inline-flex", alignItems: "center", gap: 6, fontWeight: 500 }}
+            aria-label="Save contact via Digital Business Card & QR code"
+          >
+            <QrCodeIcon width={15} height={15} /> Digital Contact Card (QR)
+          </a>
           <a
             href={SITE.facebook}
             target="_blank"
@@ -553,6 +613,15 @@ function Footer() {
         <span>© {new Date().getFullYear()} Stronghold Lockurity. Atlanta, Georgia.</span>
         <div style={{ display: "flex", alignItems: "center", gap: "var(--sl-space-lg)", flexWrap: "wrap" }}>
           <a
+            href={SITE.qrCode}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="sh-social-link sh-qr"
+            style={{ fontSize: "var(--sl-caption-size)", color: "var(--sl-mute)", display: "inline-flex", alignItems: "center", gap: 4 }}
+          >
+            <QrCodeIcon width={13} height={13} /> Digital Card
+          </a>
+          <a
             href={SITE.facebook}
             target="_blank"
             rel="noopener noreferrer"
@@ -595,4 +664,4 @@ function Footer() {
   );
 }
 
-Object.assign(window, { DS, SITE, SERVICES, NAV, Reveal, Shot, Header, Footer, ClosingCTA, Button, Card, PillTag, NavBar, NavLink, HeroBand, ContentBand, GreenDividerBand, DashedRule, Eyebrow, FacebookIcon, InstagramIcon, YouTubeIcon, TikTokIcon });
+Object.assign(window, { DS, SITE, SERVICES, NAV, Reveal, Shot, Header, Footer, ClosingCTA, Button, Card, PillTag, NavBar, NavLink, HeroBand, ContentBand, GreenDividerBand, DashedRule, Eyebrow, FacebookIcon, InstagramIcon, YouTubeIcon, TikTokIcon, QrCodeIcon });
