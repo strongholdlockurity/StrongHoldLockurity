@@ -1,5 +1,6 @@
 import ClientPage from "@/components/ClientPage";
 import { AREAS } from "@/lib/areas";
+import { getBreadcrumbSchema } from "@/lib/seo";
 
 const title = "Service areas — Atlanta neighborhoods, Smyrna, Decatur and Sandy Springs | Stronghold Lockurity";
 const description =
@@ -9,13 +10,31 @@ export const metadata = {
   title,
   description,
   alternates: { canonical: "/service-areas" },
-  openGraph: { url: "/service-areas", title, description },
-  twitter: { title, description },
+  openGraph: {
+    url: "/service-areas",
+    title,
+    description,
+    images: ["https://strongholdlockurity.com/assets/stronghold-lockurity-atlanta-georgia-security-company.jpg"],
+  },
+  twitter: {
+    title,
+    description,
+    images: ["https://strongholdlockurity.com/assets/stronghold-lockurity-atlanta-georgia-security-company.jpg"],
+  },
 };
 
 export default function Page() {
+  const breadcrumbs = getBreadcrumbSchema([
+    { name: "Home", url: "/" },
+    { name: "Service Areas", url: "/service-areas" },
+  ]);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -36,3 +55,4 @@ export default function Page() {
     </>
   );
 }
+

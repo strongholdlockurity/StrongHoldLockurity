@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import ClientPage from "@/components/ClientPage";
 import { AREAS, areaBySlug, areaMeta } from "@/lib/areas";
+import { getBreadcrumbSchema, BUSINESS_INFO } from "@/lib/seo";
 
 /* Ten known slugs, built at build time. Anything else 404s rather than
    rendering an empty page for an area we do not cover. */
@@ -28,26 +29,30 @@ export default function Page({ params }) {
   const area = areaBySlug(params.slug);
   if (!area) notFound();
 
-  /* Service-level structured data, scoped to this area. Only facts already
-     published elsewhere on the site appear here. */
+  const breadcrumbs = getBreadcrumbSchema([
+    { name: "Home", url: "/" },
+    { name: "Service Areas", url: "/service-areas" },
+    { name: area.name, url: `/service-areas/${area.slug}` },
+  ]);
+
+  /* Service-level structured data, scoped to this area. */
   const ld = {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: "Locksmith and security hardware services",
+    serviceType: "Locksmith and Security Hardware Services",
     provider: {
       "@type": "Locksmith",
-      name: "Stronghold Lockurity",
-      telephone: "+1-470-827-7019",
-      email: "stronghold@strongholdlockurity.com",
-      foundingDate: "2018",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "2454 Scottridge Dr",
-        addressLocality: "Atlanta",
-        addressRegion: "GA",
-        postalCode: "30318",
-        addressCountry: "US",
-      },
+      "@id": "https://strongholdlockurity.com/#locksmith",
+      name: BUSINESS_INFO.name,
+      telephone: BUSINESS_INFO.telephone,
+      email: BUSINESS_INFO.email,
+      url: BUSINESS_INFO.url,
+      logo: BUSINESS_INFO.logo,
+      image: BUSINESS_INFO.image,
+      foundingDate: BUSINESS_INFO.foundingDate,
+      priceRange: BUSINESS_INFO.priceRange,
+      sameAs: BUSINESS_INFO.sameAs,
+      address: BUSINESS_INFO.address,
     },
     areaServed: {
       "@type": area.kind === "city" ? "City" : "Place",
@@ -65,8 +70,13 @@ export default function Page({ params }) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
+      />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <ClientPage name="area" slug={area.slug} />
     </>
   );
 }
+

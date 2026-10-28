@@ -1,7 +1,8 @@
 User-agent: *
 Allow: /
-Disallow: /src/
-Disallow: /build/
 Disallow: /api/
 
+# Host and Sitemap for Google Search Console
+Host: https://strongholdlockurity.com
 Sitemap: https://strongholdlockurity.com/sitemap.xml
+
