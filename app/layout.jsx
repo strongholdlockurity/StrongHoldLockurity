@@ -1,3 +1,4 @@
+import Script from "next/script";
 import "../_ds/stronghold-lockurity-design-system-5c361a51-16d5-4db7-91a5-7a04bc936501/tokens/fonts.css";
 import "../_ds/stronghold-lockurity-design-system-5c361a51-16d5-4db7-91a5-7a04bc936501/tokens/colors.css";
 import "../_ds/stronghold-lockurity-design-system-5c361a51-16d5-4db7-91a5-7a04bc936501/tokens/typography.css";
@@ -88,6 +89,12 @@ export const metadata = {
 
 export const viewport = { themeColor: "#101010" };
 
+const gaMeasurementId = (
+  process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ||
+  process.env.GA_MEASUREMENT_ID ||
+  "G-3XKCHRKZ6N"
+).trim();
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -96,6 +103,22 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(getWebSiteSchema()) }}
         />
+        {gaMeasurementId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${gaMeasurementId}');
+              `}
+            </Script>
+          </>
+        )}
       </head>
       <body>
         <a className="sh-skip" href="#main">

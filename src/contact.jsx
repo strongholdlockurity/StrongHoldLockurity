@@ -67,6 +67,14 @@ function ContactForm() {
       const res = await fetch("/api/contact", { method: "POST", body });
       const data = await res.json().catch(() => ({ ok: false, error: "The server returned an unexpected response." }));
       if (!res.ok || !data.ok) throw new Error(data.error || "Something went wrong on our end.");
+      if (typeof window !== "undefined" && typeof window.gtag === "function") {
+        window.gtag("event", "generate_lead", {
+          event_category: "contact",
+          service_need: v.need,
+          property_type: v.property || "Unspecified",
+          preferred_contact: v.contact,
+        });
+      }
       setSent(true);
     } catch (x) {
       setCap({ a: 2 + Math.floor(Math.random() * 8), b: 2 + Math.floor(Math.random() * 8) });
