@@ -1,4 +1,5 @@
 import Script from "next/script";
+import ChatWidget from "@/components/ChatWidget";
 import "../_ds/stronghold-lockurity-design-system-5c361a51-16d5-4db7-91a5-7a04bc936501/tokens/fonts.css";
 import "../_ds/stronghold-lockurity-design-system-5c361a51-16d5-4db7-91a5-7a04bc936501/tokens/colors.css";
 import "../_ds/stronghold-lockurity-design-system-5c361a51-16d5-4db7-91a5-7a04bc936501/tokens/typography.css";
@@ -125,6 +126,7 @@ export default function RootLayout({ children }) {
           Skip to content
         </a>
         {children}
+        <ChatWidget />
       </body>
     </html>
   );

@@ -34,6 +34,7 @@ SUPABASE_SERVICE_ROLE_KEY    service_role key, server-only
 GOOGLE_SITE_VERIFICATION       Search Console verification string (optional)
 NEXT_PUBLIC_GA_MEASUREMENT_ID  GA4 Measurement ID, e.g. G-XXXXXXXXXX (optional)
 NEXT_PUBLIC_GA_STREAM_ID       GA4 Web Stream ID (optional)
+CHAT_ADMIN_PIN                 PIN for /admin/chat console (defaults to 30318)
 ```
 
 Create the sending mailbox first under hPanel → Emails. Without these three
