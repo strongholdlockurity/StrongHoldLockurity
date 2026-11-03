@@ -3,10 +3,10 @@ import "./boot";
 
 const NEEDS = [
   "Residential, commercial & industrial IT services",
+  "Structured cabling & low-voltage",
   "Commercial & B2B locksmithing",
   "Electronic access control & smart security",
   "Residential physical security",
-  "Structured cabling & low-voltage",
   "Mobile automotive security",
   "Not sure yet"
 ];

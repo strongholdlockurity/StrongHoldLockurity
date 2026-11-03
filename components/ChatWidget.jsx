@@ -439,11 +439,11 @@ export default function ChatWidget() {
                 >
                   {[
                     "What services do you offer?",
-                    "Access control & key fobs",
-                    "Commercial & master keys",
-                    "Residential locks & rekeying",
                     "IT, Wi-Fi & cybersecurity",
                     "Structured cabling & low-voltage",
+                    "Commercial & master keys",
+                    "Access control & key fobs",
+                    "Residential locks & rekeying",
                     "Mobile automotive & car keys",
                     "What areas do you serve?",
                     "Hours & 24/7 emergency service",
