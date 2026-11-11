@@ -1,8 +1,73 @@
+# robots.txt for Stronghold Lockurity (https://strongholdlockurity.com)
+# Optimized for Google Search Console & AI Answer Engines (AEO / GEO)
+# LLM Reference: https://strongholdlockurity.com/llms.txt
+# Full LLM Knowledge Base: https://strongholdlockurity.com/llms-full.txt
+
 User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/static/media/*.map
 
-# Host and Sitemap for Google Search Console
-Host: https://strongholdlockurity.com
+# OpenAI Search & Assistant Crawlers
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Perplexity AI Answer Engine
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Anthropic / Claude Search & Web Crawlers
+User-agent: ClaudeBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Google Search & Gemini / AI Overviews
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Apple Intelligence & Siri Search
+User-agent: Applebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Microsoft Bing & Copilot
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
 Sitemap: https://strongholdlockurity.com/sitemap.xml
-

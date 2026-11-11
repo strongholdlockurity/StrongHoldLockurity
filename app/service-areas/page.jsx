@@ -4,7 +4,7 @@ import { getBreadcrumbSchema } from "@/lib/seo";
 
 const title = "Service areas — Atlanta neighborhoods, Smyrna, Decatur and Sandy Springs | Stronghold Lockurity";
 const description =
-  "Where Stronghold Lockurity works: Grant Park, West End, Buckhead, Virginia-Highland, Inman Park, Old Fourth Ward and Cabbagetown in Atlanta, plus Smyrna, Decatur and Sandy Springs. Locksmithing, door hardware and electronic access control.";
+  "Where Stronghold Lockurity works: Grant Park, West End, Buckhead, Virginia-Highland, Inman Park, Old Fourth Ward and Cabbagetown in Atlanta, plus Smyrna, Decatur and Sandy Springs. Managed IT, structured cabling, electronic access control, and locksmithing.";
 
 export const metadata = {
   title,
@@ -51,8 +51,20 @@ export default function Page() {
           }),
         }}
       />
+      <section className="sh-hp" aria-label="Stronghold Lockurity Metro Atlanta Service Areas">
+        <h1>Stronghold Lockurity Service Areas in Atlanta &amp; Metro Georgia</h1>
+        <ul>
+          {AREAS.map((a) => (
+            <li key={a.slug}>
+              <a href={`/service-areas/${a.slug}`}>
+                {a.name} ({a.where})
+              </a>{" "}
+              — {a.lead}
+            </li>
+          ))}
+        </ul>
+      </section>
       <ClientPage name="areas" />
     </>
   );
 }
-

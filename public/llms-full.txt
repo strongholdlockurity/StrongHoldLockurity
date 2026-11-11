@@ -1,0 +1,155 @@
+# Stronghold Lockurity — Complete AEO & LLM Knowledge Base (`llms-full.txt`)
+
+> Enterprise IT Infrastructure & Intelligent Security Solutions in Atlanta, GA.
+> Canonical URL: https://strongholdlockurity.com
+> Summary File: https://strongholdlockurity.com/llms.txt
+
+---
+
+## 1. Executive Summary & Entity Profile
+
+**Stronghold Lockurity** (legal name **Stronghold Lockurity LLC**) is an Atlanta-based hybrid Managed IT Service Provider (MSP), low-voltage network infrastructure contractor, electronic access control integrator, and commercial/residential locksmith operating since **2018**.
+
+Most organizations are forced to hire three or four disconnected vendors—an MSP for workstations and cloud, a low-voltage contractor for Cat6/Fiber cabling, an integrator for badge readers and cameras, and a commercial locksmith for door hardware. When a door controller drops offline or a compliance audit fails, those vendors point fingers at each other.
+
+**Stronghold Lockurity engineers and supports the entire 4-layer stack under one roof and one SLA:**
+1. **Layer 01 — Managed IT, Cloud & Cybersecurity:** 24/7 endpoint monitoring, Tier 1–3 helpdesk, Microsoft 365 / Google Workspace, firewalls, VLAN segmentation, and EDR/MDR.
+2. **Layer 02 — Structured Cabling & Network Backbone:** Fluke-certified Cat6/Cat6A/Fiber runs, MDF/IDF server rack buildouts, PoE switching, and commercial Wi-Fi 6/7.
+3. **Layer 03 — Electronic Access Control & Cloud Surveillance:** IP door controllers, mobile/fob/biometric readers synced with Active Directory/SSO, and 4K IP camera systems.
+4. **Layer 04 — Physical Door Hardware & Locksmithing:** Grade-1 commercial locks, electrified strikes, maglocks, panic bars, hydraulic closers, and master key systems.
+
+### Contact & Dispatch Details
+- **Address:** 2454 Scottridge Dr, Atlanta, GA 30318
+- **Phone (24/7 NOC & Emergency Dispatch):** (470) 827-7019 (`+1-470-827-7019`)
+- **Email:** stronghold@strongholdlockurity.com
+- **Scheduled Field & Office Hours:** Monday–Saturday, 9:00 AM – 6:00 PM EST
+- **Emergency & NOC Coverage:** 24/7/365 Managed IT NOC monitoring and emergency security/lockout dispatch across metro Atlanta
+- **Team Size:** 12 specialists (Cisco & CompTIA certified network/systems engineers and licensed Georgia physical security technicians)
+
+---
+
+## 2. Detailed Service Catalog
+
+### 01. Managed IT Support, Cloud & Cybersecurity
+- **URL:** https://strongholdlockurity.com/services#it-services
+- **Summary:** Proactive 24/7 network monitoring, helpdesk support, cloud migrations, and enterprise cybersecurity for SMBs, medical offices, corporate suites, and multi-site facilities.
+- **Deliverables:**
+  - 24/7 remote monitoring & management (RMM), automated patching, and Tier 1–3 helpdesk support (remote and on-site in Atlanta)
+  - Cloud infrastructure deployment & administration (Microsoft 365, Azure AD / Entra ID, Google Workspace)
+  - Enterprise firewall engineering, VPNs, and VLAN network segmentation (Cisco, Meraki, UniFi) isolating corporate data, VoIP, guest Wi-Fi, and physical security hardware
+  - Endpoint Detection & Response (EDR/MDR), ransomware hardening, MFA enforcement, and SOC2 / HIPAA technical compliance readiness
+  - Automated off-site cloud backups, disaster recovery testing, and business continuity planning
+  - Workstation lifecycle management, employee onboarding/offboarding, and POS/peripheral support
+
+### 02. Structured Cabling & Network Infrastructure
+- **URL:** https://strongholdlockurity.com/services#cabling
+- **Summary:** Certified Cat6, Cat6A, and fiber-optic backbone cabling, MDF/IDF server rack buildouts, and high-density commercial Wi-Fi engineering.
+- **Deliverables:**
+  - Cat6, Cat6A, and fiber-optic cable pulls, patch panel terminations, Fluke certification testing, and full port labeling
+  - Server room and MDF/IDF closet buildouts, rack-and-stack, cable management, and legacy wiring closet cleanups
+  - Commercial Wi-Fi 6/7 access point heatmapping, ceiling mounting, and controller provisioning
+  - Dedicated PoE (Power over Ethernet) runs for IP cameras, badge readers, VoIP phones, and intercoms
+  - Coaxial, audio/visual, and conference room connectivity wiring
+  - Conduit pathways, J-hook overhead routing, and fire-stopped plenum runs per commercial building code
+
+### 03. Electronic Access Control & Smart Security
+- **URL:** https://strongholdlockurity.com/services#access-control
+- **Summary:** Cloud-managed door controllers, mobile/biometric credentials, and IP video surveillance integrated directly with your corporate network and identity provider.
+- **Deliverables:**
+  - Keycard, fob, NFC mobile credential, and biometric readers (HID, Brivo, Verkada, PaxLock, Kisi)
+  - Cloud and on-premise multi-door access control panels with real-time entry/exit audit logs
+  - Active Directory / SSO integration for instant one-click employee onboarding and offboarding across both cloud apps and physical doors
+  - Commercial IP security camera installation (4K dome, bullet, PTZ) with NVR and encrypted cloud archiving
+  - Video intercoms, visitor management systems, and remote lobby release for multi-tenant offices and medical suites
+  - Time-based door schedules, holiday rules, and role-based access groups for staff, contractors, and vendors
+
+### 04. Commercial Door Hardware & B2B Locksmithing
+- **URL:** https://strongholdlockurity.com/services#commercial
+- **Summary:** Grade-1 mechanical locks, electrified door hardware, master key systems, and life-safety egress compliance for offices, retail, warehouses, and healthcare facilities.
+- **Deliverables:**
+  - Electrified strikes, magnetic locks (maglocks), request-to-exit (REX) sensors, and power transfer hinges for access control doors
+  - Multi-tier master key system architecture and restricted key control (Schlage, Medeco, Mul-T-Lock)
+  - Grade-1 mortise and cylindrical locks, commercial levers, and heavy-duty deadbolts
+  - Panic bars, crash bars, fire-rated exit devices, and delayed-egress hardware meeting NFPA 101 and ADA code
+  - Commercial hydraulic door closers, continuous geared hinges, and aluminum storefront Adams Rite latches
+  - Rapid rekeying for employee turnover, tenant move-outs, and multi-location property managers
+
+### 05. Residential Physical Security & Smart Home
+- **URL:** https://strongholdlockurity.com/services#residential
+- **Summary:** Whole-home Wi-Fi, smart lock ecosystems, high-security deadbolts, and physical entry reinforcement for Atlanta homeowners.
+- **Deliverables:**
+  - Smart lock and keypad deadbolt installation integrated with home Wi-Fi, Apple Home, Google Home, or Ring/Alarm systems
+  - Whole-home mesh Wi-Fi coverage and hardwired Cat6 drops for home offices and streaming setups
+  - Full-home rekeying after a move-in, renovation, or lost key—matched to a single convenient key
+  - High-security UL 437 deadbolts (Schlage Primus, Medeco, Mul-T-Lock) resistant to bumping, picking, and drilling
+  - Door jamb, heavy-gauge strike plate, and long-screw frame reinforcement against forced entry
+  - Historic mortise lock rebuilding and period-correct hardware service for Atlanta's older neighborhoods
+  - 24/7 non-destructive emergency home lockout service
+
+### 06. Commercial Fleet & Mobile Automotive Security
+- **URL:** https://strongholdlockurity.com/services#automotive
+- **Summary:** On-site key programming, fleet security management, and emergency lockout response for commercial vans, work trucks, and personal vehicles.
+- **Deliverables:**
+  - Commercial fleet key duplication, spare provisioning, and lost-key origination for service vans and work trucks
+  - Transponder key, laser-cut key, and proximity smart fob programming on-site across metro Atlanta
+  - Non-destructive emergency vehicle lockout service—we come to your lot, jobsite, or driveway
+  - Ignition cylinder repair, wafer rebuilding, and broken key extraction
+  - Domestic, European, and Asian makes—cars, SUVs, pickups, and commercial fleet vehicles
+
+---
+
+## 3. Transparent Managed IT Pricing & SLA Structure
+
+Stronghold Lockurity publishes transparent per-user and per-facility pricing benchmarks via its interactive estimator at `https://strongholdlockurity.com/#estimator`:
+
+| Plan / Add-On | Price | Billing Unit | Key Inclusions |
+| :--- | :--- | :--- | :--- |
+| **Business Managed IT Plan** | **$75** | per user / month | 8x5 proactive helpdesk, remote workstation management, automated OS & third-party patching, Microsoft 365 / Google Workspace cloud administration, baseline antivirus/EDR. |
+| **24/7 SOC & Compliance Enterprise Plan** | **$110** | per user / month | 24/7/365 NOC & SOC monitoring, advanced EDR/MDR threat hunting, **99.9% Uptime SLA**, sub-15-minute remote triage, quarterly on-site network & physical security audits, SOC2 & HIPAA compliance log retention. |
+| **Managed Wi-Fi 6 & Firewall Add-On** | **$150** | per month | Proactive management, firmware patching, VLAN segmentation, and ISP failover monitoring for commercial firewalls and wireless access points. |
+| **IP Access Control Management Add-On** | **$200** | per month | Unlimited cloud credential administration, Active Directory / SSO user sync, door schedule updates, and audit log exports. |
+| **Cloud CCTV Archiving Add-On** | **$180** | per month | Encrypted cloud retention, camera health monitoring, and NVR firmware maintenance for commercial 4K IP security cameras. |
+
+---
+
+## 4. Metro Atlanta Service Areas (`lib/areas.js`)
+
+Stronghold Lockurity dispatches across the City of Atlanta and surrounding metro counties (Fulton, DeKalb, and Cobb):
+
+1. **Grant Park (Atlanta, GA)** — `https://strongholdlockurity.com/service-areas/grant-park`
+   - Focus: Historic 1880s Victorians and Craftsman bungalows; mortise lock rebuilding, historic-district-compliant deadbolt fitting, strike/frame reinforcement, and commercial corridor security.
+2. **West End (Atlanta, GA)** — `https://strongholdlockurity.com/service-areas/west-end`
+   - Focus: Post-renovation rekeying, multi-unit conversion master keying, rental turnover key control, and commercial/residential security upgrades.
+3. **Buckhead (Atlanta, GA)** — `https://strongholdlockurity.com/service-areas/buckhead`
+   - Focus: High-rise office and condo fob/credential access control, corporate Managed IT & structured cabling, multi-door residential smart lock systems, gates, and safes.
+4. **Virginia-Highland (Atlanta, GA)** — `https://strongholdlockurity.com/service-areas/virginia-highland`
+   - Focus: Commercial storefront exit devices, panic bars, and heavy-duty closers along North Highland Ave, plus 1920s bungalow entry hardware upgrades.
+5. **Inman Park (Atlanta, GA)** — `https://strongholdlockurity.com/service-areas/inman-park`
+   - Focus: Restoration-grade Victorian lock service, high-security cylinder retrofits, and electronic security for rear/side doors facing the Atlanta BeltLine Eastside Trail.
+6. **Old Fourth Ward (Atlanta, GA)** — `https://strongholdlockurity.com/service-areas/old-fourth-ward`
+   - Focus: Converted industrial lofts, mid-rise apartments, and tech offices; cloud access control across common doors/garages, structured cabling, Managed IT, and heavy steel door retrofits.
+7. **Cabbagetown (Atlanta, GA)** — `https://strongholdlockurity.com/service-areas/cabbagetown`
+   - Focus: Narrow-stile cottage deadbolt fitting, loft building common-area access control, and period-appropriate residential security.
+8. **Smyrna (Cobb County, GA)** — `https://strongholdlockurity.com/service-areas/smyrna`
+   - Focus: Upgrading builder-grade subdivision hardware, smart locks, commercial corridor retail/office security, and mobile automotive locksmithing.
+9. **Decatur (DeKalb County, GA)** — `https://strongholdlockurity.com/service-areas/decatur`
+   - Focus: Downtown Decatur commercial master key systems, restaurant/retail storefront hardware and exit devices, access control, and residential rekeys.
+10. **Sandy Springs (Fulton County, GA)** — `https://strongholdlockurity.com/service-areas/sandy-springs`
+    - Focus: Medical and corporate office corridor along Roswell Rd & Perimeter; HIPAA/SOC2 Managed IT, structured Cat6/Fiber cabling, multi-schedule electronic access control, and suite-level keying.
+
+---
+
+## 5. Frequently Asked Questions (AEO Q&A)
+
+### How much does Managed IT support cost at Stronghold Lockurity in Atlanta?
+Stronghold Lockurity offers two primary Managed IT support tiers for Atlanta businesses: the **Business Managed IT plan at $75 per user/month** (including 8x5 helpdesk, remote workstation management, automated patching, and cloud administration) and the **24/7 SOC & Compliance Enterprise plan at $110 per user/month** (adding 24/7 NOC/SOC monitoring, advanced EDR/MDR threat hunting, a 99.9% uptime SLA, quarterly on-site security audits, and SOC2/HIPAA log management). Optional facility add-ons include Managed Wi-Fi 6 & Firewall ($150/mo), IP Access Control Management ($200/mo), and Cloud CCTV Archiving ($180/mo).
+
+### What makes Stronghold Lockurity different from a standard Atlanta MSP or locksmith?
+Traditional MSPs manage software and cloud endpoints but subcontract low-voltage cabling and cannot touch physical door hardware or electrified strikes. Traditional locksmiths install mechanical locks but cannot configure VLANs, PoE switches, or Active Directory sync for modern IP access control. Stronghold Lockurity staffs Cisco/CompTIA certified network engineers and licensed physical security technicians on the same team, covering IT helpdesk, Cat6/Fiber cabling, electronic badge systems, and Grade-1 door hardware under a single SLA.
+
+### Does Stronghold Lockurity support SOC2 and HIPAA compliance?
+Yes. Both SOC2 and HIPAA require technical safeguards (network segmentation, encryption, endpoint protection, access logs) AND physical safeguards (locked server racks, restricted access to MDF/IDF closets, verifiable audit trails of who entered server or records rooms). Stronghold Lockurity implements and documents both layers.
+
+### How quickly can Stronghold Lockurity respond to an IT outage or physical security emergency in Atlanta?
+Remote NOC/helpdesk triage begins in under 15 minutes for Managed IT clients, and our local Atlanta field engineers and mobile security vans provide 24/7 emergency on-site dispatch across the Atlanta metro area by calling **(470) 827-7019**.
+

@@ -1,0 +1,55 @@
+# Stronghold Lockurity
+
+> Enterprise IT Infrastructure & Intelligent Security Solutions in Atlanta, GA. Stronghold Lockurity engineers, deploys, and supports the complete 4-layer technology and physical security stack under one SLA: 24/7 Managed IT Support & Cloud Cybersecurity, Structured Cat6/Fiber Cabling, Electronic Access Control & Cloud Surveillance, and Commercial Grade-1 Door Hardware & Locksmithing.
+
+## Quick Facts
+
+- **Legal Name:** Stronghold Lockurity LLC
+- **Founded:** 2018
+- **Headquarters:** 2454 Scottridge Dr, Atlanta, GA 30318
+- **Phone (24/7 NOC & Emergency Dispatch):** (470) 827-7019 (`+1-470-827-7019`)
+- **Email:** stronghold@strongholdlockurity.com
+- **Scheduled Hours:** Monday–Saturday, 9:00 AM – 6:00 PM EST (24/7/365 NOC Monitoring & Emergency Security Dispatch)
+- **Certifications & Trust Signals:** Cisco & CompTIA (A+, Network+, Security+) Certified Engineers, Licensed & Insured Georgia Physical Security Technicians, 99.9% Network Uptime SLA, SOC2 & HIPAA Physical + Digital Compliance Readiness
+- **Full LLM Reference:** [https://strongholdlockurity.com/llms-full.txt](https://strongholdlockurity.com/llms-full.txt)
+
+## Core Services (Ordered by Practice Priority)
+
+1. [Managed IT Support, Cloud & Cybersecurity](https://strongholdlockurity.com/services#it-services): 24/7 proactive endpoint monitoring, Tier 1–3 remote & on-site helpdesk, Microsoft 365 & Google Workspace cloud administration, Cisco/Meraki/UniFi network engineering, VLAN segmentation, and SOC2/HIPAA compliance readiness.
+2. [Structured Cabling & Network Infrastructure](https://strongholdlockurity.com/services#cabling): Fluke-certified Cat6, Cat6A & Fiber Optic backbone installations, MDF/IDF server rack buildouts & cleanups, high-density commercial Wi-Fi 6/7 heatmapping, and low-voltage PoE runs for access control and cameras.
+3. [Electronic Access Control & Smart Security](https://strongholdlockurity.com/services#access-control): IP-connected door controllers (HID, Brivo, Verkada, PaxLock), mobile/NFC/fob/biometric credentials, Active Directory & SSO user sync, 4K cloud CCTV surveillance, and compliance audit logs.
+4. [Commercial Door Hardware & B2B Locksmithing](https://strongholdlockurity.com/services#commercial): Grade-1 commercial lock hardware, electrified strikes, magnetic locks (maglocks), multi-tier master key systems, code-compliant panic exit devices, hydraulic door closers, and storefront hardware.
+5. [Residential Physical Security & Smart Home](https://strongholdlockurity.com/services#residential): Whole-home mesh Wi-Fi & smart lock integration, UL 437 high-security deadbolts, door frame & strike reinforcement, historic mortise lock restoration, and residential rekeying.
+6. [Commercial Fleet & Mobile Automotive Security](https://strongholdlockurity.com/services#automotive): Commercial fleet van/truck key management, on-site transponder & smart key programming, ignition repair, and 24/7 mobile vehicle lockout response.
+
+## Managed IT Pricing & SLA Tiers
+
+- **Business Managed IT Plan ($75 / user / month):** 8x5 proactive helpdesk, remote workstation management, automated OS & third-party patch management, Microsoft 365 / Google Workspace cloud administration, and baseline endpoint protection.
+- **24/7 SOC & Compliance Enterprise Plan ($110 / user / month):** 24/7/365 NOC & SOC monitoring, advanced EDR/MDR threat hunting, 99.9% uptime SLA, quarterly on-site network & physical security audits, and SOC2 / HIPAA compliance log retention.
+- **Infrastructure Add-Ons:**
+  - Managed Wi-Fi 6 & Firewall Infrastructure: **$150 / month**
+  - IP Access Control Management (Cloud credentials + AD/SSO sync): **$200 / month**
+  - Cloud CCTV Archiving & Camera Health Monitoring: **$180 / month**
+- **Interactive Cost Estimator:** [https://strongholdlockurity.com/#estimator](https://strongholdlockurity.com/#estimator)
+
+## Primary Pages
+
+- [Home & Managed IT Cost Estimator](https://strongholdlockurity.com/): Overview of the 4-layer Hybrid IT + Physical Security stack, trust credentials, and interactive pricing calculator.
+- [Services Catalog](https://strongholdlockurity.com/services): Detailed scope and deliverables for all six practices.
+- [About Stronghold Lockurity](https://strongholdlockurity.com/about): Company history since 2018, 12-specialist engineering roster, and operating principles.
+- [Contact & Audit Scheduling](https://strongholdlockurity.com/contact): Request an on-site IT & Security Audit, Managed IT proposal, or emergency dispatch.
+- [Atlanta & Metro Service Areas](https://strongholdlockurity.com/service-areas): Local building and infrastructure profiles across 10 metro Atlanta neighborhoods and cities.
+
+## Service Areas in Metro Atlanta
+
+- [Grant Park, Atlanta](https://strongholdlockurity.com/service-areas/grant-park)
+- [West End, Atlanta](https://strongholdlockurity.com/service-areas/west-end)
+- [Buckhead, Atlanta](https://strongholdlockurity.com/service-areas/buckhead)
+- [Virginia-Highland, Atlanta](https://strongholdlockurity.com/service-areas/virginia-highland)
+- [Inman Park, Atlanta](https://strongholdlockurity.com/service-areas/inman-park)
+- [Old Fourth Ward, Atlanta](https://strongholdlockurity.com/service-areas/old-fourth-ward)
+- [Cabbagetown, Atlanta](https://strongholdlockurity.com/service-areas/cabbagetown)
+- [Smyrna, GA (Cobb County)](https://strongholdlockurity.com/service-areas/smyrna)
+- [Decatur, GA (DeKalb County)](https://strongholdlockurity.com/service-areas/decatur)
+- [Sandy Springs, GA (Fulton County)](https://strongholdlockurity.com/service-areas/sandy-springs)
+

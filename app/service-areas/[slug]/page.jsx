@@ -39,9 +39,9 @@ export default function Page({ params }) {
   const ld = {
     "@context": "https://schema.org",
     "@type": "Service",
-    serviceType: "Locksmith and Security Hardware Services",
+    serviceType: "Managed IT, Structured Cabling, Electronic Access Control & Locksmith Services",
     provider: {
-      "@type": "Locksmith",
+      "@type": ["ProfessionalService", "Locksmith"],
       "@id": "https://strongholdlockurity.com/#locksmith",
       name: BUSINESS_INFO.name,
       telephone: BUSINESS_INFO.telephone,
@@ -75,8 +75,20 @@ export default function Page({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+      <section className="sh-hp" aria-label={`${area.name} IT, Access Control & Security Services`}>
+        <h1>
+          {area.name} ({area.where}) — Managed IT, Access Control &amp; Locksmith Services | Stronghold Lockurity
+        </h1>
+        <p>{area.lead}</p>
+        <p>{area.character}</p>
+        <h2>Common Projects in {area.name}</h2>
+        <ul>
+          {area.focus.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </section>
       <ClientPage name="area" slug={area.slug} />
     </>
   );
 }
-
