@@ -16,7 +16,7 @@ const SITE = {
   qrImage: "/assets/stronghold-contact-qr.svg",
   address: "2454 Scottridge Dr, Atlanta, GA 30318",
   hours: "Monday – Saturday, 9:00 AM – 6:00 PM",
-  emergency: "24/7 emergency service",
+  emergency: "99.9% Uptime SLA · 24/7 Support",
 };
 
 const SERVICES = [
@@ -25,23 +25,23 @@ const SERVICES = [
     cardImg: "/assets/it-services-server-rack-infrastructure-atlanta.jpg",
     img: "/assets/it-network-engineer-commercial-industrial-setup-atlanta.jpg",
     num: "01",
-    name: "Residential, commercial & industrial IT",
-    short: "Secure network infrastructure, device management, and operational tech for homes, offices, and industrial facilities.",
-    chips: ["Managed networks", "Commercial & industrial Wi-Fi", "IoT & VLAN segmentation", "Server & rack setup", "Redundancy & failover", "Industrial OT security"],
-    who: "Homeowners with smart infrastructure, commercial offices, healthcare clinics, retail, warehouses, logistics centers, and manufacturing plants.",
+    name: "Managed IT support, cloud & cybersecurity",
+    short: "24/7 proactive endpoint monitoring, helpdesk support, cloud integration, and hardened network architectures for SMBs, corporate offices, healthcare clinics, and industrial facilities.",
+    chips: ["24/7 Managed IT & Helpdesk", "Cloud & M365 / Workspace", "Cisco & CompTIA Certified", "SOC2 & HIPAA Readiness", "VLAN & Zero-Trust Security", "99.9% Uptime SLA"],
+    who: "SMBs, corporate offices, healthcare clinics, property managers, warehouses, logistics centers, and connected homes.",
     problem:
-      "Modern security hardware runs on IP networks. When network equipment is unmanaged, Wi-Fi drops out, IoT devices sit exposed on public subnets, and industrial operations grind to a halt during outages or cyber-physical compromises.",
+      "Modern operations and security hardware depend on resilient IP networks. When IT is reactive or unmanaged, Wi-Fi drops out, endpoints go unpatched, IoT and access devices sit exposed on public subnets, and outages stall business continuity.",
     solution:
-      "We engineer, deploy, and support hardened network architectures tailored to your environment. From segmenting home automation systems and deploying enterprise-grade UniFi/Meraki stacks for offices, to configuring ruggedized, dual-WAN failover networks in industrial warehouses, we keep your systems connected and protected.",
+      "Our Cisco and CompTIA certified engineers design, deploy, and manage hardened IT environments under a 99.9% uptime SLA. From Tier 1–3 helpdesk support and Microsoft 365 / Google Workspace migrations to enterprise UniFi/Meraki/Cisco stacks, VLAN segmentation, and SOC2/HIPAA compliance readiness, we keep your operations online and protected.",
     handles: [
-      "Commercial network engineering, firewalls & managed PoE switches",
-      "Industrial-grade ruggedized networking & high-bay Wi-Fi deployment",
-      "Residential whole-home Wi-Fi, mesh systems & network closets",
-      "VLAN segmentation for IoT, access control, cameras & guest networks",
-      "Dual-WAN, 5G cellular automated failover & backup power (UPS)",
-      "Server rack buildouts, patch panel certification & cable cleanups",
-      "Operational Technology (OT) & environmental sensor monitoring",
-      "Secure VPNs, zero-trust remote access & endpoint security",
+      "24/7/365 proactive endpoint monitoring, patch management & Tier 1–3 helpdesk",
+      "Enterprise network engineering, next-gen firewalls & managed PoE switch stacks",
+      "Cloud migrations (Microsoft 365 & Google Workspace), SSO & MFA enforcement",
+      "VLAN segmentation isolating corporate data, VoIP, IoT, cameras & access control",
+      "SOC2, HIPAA & PCI compliance readiness, vulnerability scans & endpoint protection",
+      "Dual-WAN, 5G cellular automated failover & encrypted cloud disaster recovery",
+      "Cross-platform workstation provisioning & support (Windows, macOS, Linux)",
+      "Industrial Operational Technology (OT) networking & ruggedized high-bay Wi-Fi",
     ],
   },
   {
@@ -49,65 +49,65 @@ const SERVICES = [
     cardImg: "/assets/structured-cabling-network-patch-panel-atlanta.jpg",
     img: "/assets/low-voltage-structured-cabling-installation-atlanta.jpg",
     num: "02",
-    name: "Structured cabling & low-voltage",
-    short: "The infrastructure behind the hardware — data, network and low-voltage runs for homes, businesses and facilities.",
-    chips: ["Structured cabling", "Data & network runs", "Low-voltage", "Camera & reader runs", "Termination & labelling"],
-    who: "Homeowners, offices, retail, warehouses and facility teams — new builds, fit-outs and retrofits.",
+    name: "Structured cabling & network infrastructure",
+    short: "Certified Cat6/Fiber backbone, server rack buildouts, high-density Wi-Fi 6/7 deployment, and low-voltage runs for offices, commercial buildings, and facilities.",
+    chips: ["Cat6 & Fiber Backbone", "Server Rack Buildouts", "High-Density Wi-Fi", "Low-Voltage & PoE Runs", "Patch Panel Certification"],
+    who: "Corporate offices, healthcare facilities, multi-tenant buildings, retail, warehouses, and new-build or retrofit fit-outs.",
     problem:
-      "Access control, cameras and network equipment only work if there is a clean path back to the rack. Improvised runs, unlabelled cable and daisy-chained extensions produce faults that look like device failures and get diagnosed as such.",
+      "Cloud applications, Wi-Fi access points, IP cameras, and door controllers only perform as well as the physical layer feeding them. Unlabelled cable, improvised runs, and messy network closets create bottlenecks that look like software or ISP failures.",
     solution:
-      "We pull, terminate and test the cable properly, label both ends, and document what runs where — whether it feeds a reader, a camera, an access point or a workstation. Where we are also installing the hardware, the cabling is planned with it rather than after it.",
+      "We pull, terminate, certify, and label structured data and low-voltage cabling to enterprise standards, build out clean server racks and patch panels, and engineer both the physical wiring and the switch configuration as one unified deployment.",
     handles: [
-      "Structured cabling for data and network",
-      "Low-voltage runs for access control and cameras",
-      "New build, fit-out and retrofit cabling",
-      "Cable pathways, containment and management",
-      "Termination, testing and labelling",
-      "Rack, patch panel and cabinet tidy-ups",
-    ],
-  },
-  {
-    id: "commercial",
-    cardImg: "/assets/commercial-locksmith-atlanta-door-hardware.jpg",
-    img: "/assets/commercial-locksmith-atlanta-exit-device-panic-bar.jpg",
-    num: "03",
-    name: "Commercial & B2B locksmithing",
-    short: "Businesses, offices, retail, property management and multi-tenant buildings.",
-    chips: ["Master key systems", "Rekeying", "Exit devices", "Door hardware", "Lock repair"],
-    who: "Business owners, office and retail managers, property managers, facility teams.",
-    problem:
-      "Keys have been copied, staff have turned over, and nobody is certain who can open what. Doors that get used a few hundred times a day wear out hardware that was specified for a house.",
-    solution:
-      "We survey the openings, document what is installed on each one, and put a key system in place that you can actually administer. Where a door is failing, we replace the hardware with grades built for commercial traffic.",
-    handles: [
-      "Commercial lock installation and replacement",
-      "Rekeying and master key system design",
-      "Exit devices, closers and panic hardware",
-      "Storefront and aluminium door hardware",
-      "Lock repair and emergency lockout response",
-      "Key control and restricted keyways",
+      "Structured Cat6, Cat6A and fiber-optic backbone cabling",
+      "Server room rack buildouts, patch panel termination & closet cleanups",
+      "High-density commercial Wi-Fi heatmapping & access point deployment",
+      "Low-voltage PoE runs for IP access control readers, controllers & 4K cameras",
+      "New construction, commercial tenant fit-out & retrofit cabling",
+      "Full line testing, certification & port-by-port documentation",
     ],
   },
   {
     id: "access-control",
     cardImg: "/assets/keyless-entry-access-control-keypad-atlanta.jpg",
     img: "/assets/electronic-access-control-panel-installation-atlanta.jpg",
-    num: "04",
+    num: "03",
     name: "Electronic access control & smart security",
-    short: "Credential-based entry for doors that need a record of who opened them.",
-    chips: ["Access control", "Keyless entry", "Electronic locks", "Credentials", "Integrations"],
-    who: "Offices, facilities, warehouses, clinics, gyms, and homes moving off metal keys.",
+    short: "IP-connected door controllers, mobile/fob/biometric credentials, cloud video surveillance, and directory-synced entry with a complete audit trail.",
+    chips: ["IP Access Control", "Mobile & Fob Credentials", "Active Directory Sync", "Cloud Video / CCTV", "Audit Trails & Schedules"],
+    who: "Corporate offices, healthcare clinics, property managers, warehouses, multi-tenant buildings, and smart facilities.",
     problem:
-      "A metal key cannot be revoked. When someone leaves, the only options are collecting every copy or rekeying the building — and neither tells you who came through the door at 2:00 AM.",
+      "Traditional IT vendors stop at the Ethernet jack, while traditional locksmiths don't configure VLANs or cloud directories. Meanwhile, physical keys cannot be revoked remotely or produce an audit log for compliance.",
     solution:
-      "We install electronic locks and readers on the openings that matter, issue credentials per person, and hand over a system where access is granted and revoked in seconds rather than rekeyed.",
+      "We bridge digital IT and physical entry. We install IP door controllers, biometric/fob/mobile readers, and cloud cameras on a segmented security VLAN, integrate them with your user directory, and hand over a system where access is granted, scheduled, or revoked in seconds.",
     handles: [
-      "Access control systems and door controllers",
-      "Electronic and keyless entry locks",
-      "Credential systems — cards, fobs, codes, mobile",
-      "Smart locks for residential and small-business use",
-      "Hardware integration with existing door assemblies",
-      "Credential audits and system handover training",
+      "Cloud and on-premise IP access control systems & multi-door controllers",
+      "Mobile credentials, encrypted key fobs, badges, PIN keypads & biometrics",
+      "Directory integration (Microsoft Entra ID / Active Directory / Google) for instant onboarding & offboarding",
+      "4K AI cloud video surveillance & door-event video verification",
+      "Automated door schedules for staff, contractors, cleaners & after-hours access",
+      "Audit logs & physical access reporting for SOC2 and HIPAA compliance",
+    ],
+  },
+  {
+    id: "commercial",
+    cardImg: "/assets/commercial-locksmith-atlanta-door-hardware.jpg",
+    img: "/assets/commercial-locksmith-atlanta-exit-device-panic-bar.jpg",
+    num: "04",
+    name: "Commercial door hardware & B2B locksmithing",
+    short: "The physical foundation of facility security — Grade-1 commercial locks, restricted master key systems, exit devices, and door/frame remediation.",
+    chips: ["Grade-1 Door Hardware", "Master Key Systems", "Exit Devices & Closers", "Electrified Strikes & Maglocks", "Facility Key Control"],
+    who: "Property managers, corporate facilities, healthcare clinics, retail corridors, schools, and multi-tenant buildings.",
+    problem:
+      "Even the smartest electronic access system fails if the physical door sags, the closer slams, or the electric strike binds. And on mechanical openings, untracked keys and worn hardware leave facilities exposed.",
+    solution:
+      "Unlike pure IT MSPs that have to subcontract door work, our in-house commercial hardware specialists service the entire physical opening — installing Grade-1 locks, electrified strikes, code-compliant panic bars, heavy-duty closers, and administered master key hierarchies.",
+    handles: [
+      "Electrified strikes, maglocks & power-transfer hinges for access control doors",
+      "Grade-1 commercial lock installation, repair & reinforcement",
+      "Restricted keyways & multi-tier master key system architecture",
+      "Code-compliant panic bars, fire-rated exit devices & hydraulic door closers",
+      "Storefront aluminum/glass door hardware & continuous hinges",
+      "24/7 commercial facility lockout & hardware failure response",
     ],
   },
   {
@@ -115,21 +115,20 @@ const SERVICES = [
     cardImg: "/assets/residential-locksmith-atlanta-high-security-deadbolt.jpg",
     img: "/assets/home-security-entry-door-hardware-smart-lock-atlanta.jpg",
     num: "05",
-    name: "Residential physical security",
-    short: "Homes, entry hardware and the parts of a door most people never think about.",
-    chips: ["High-security locks", "Rekeying", "Entry hardware", "Door reinforcement", "Smart locks"],
-    who: "Homeowners, renters, landlords, and anyone who just moved in.",
+    name: "Residential physical security & smart home",
+    short: "Whole-home Wi-Fi & smart lock integration, high-security deadbolts, frame reinforcement, and single-key rekeying for Atlanta homeowners.",
+    chips: ["Smart Locks & Home Wi-Fi", "High-Security Deadbolts", "Door & Frame Reinforcement", "Whole-Home Rekeying", "Historic Door Hardware"],
+    who: "Homeowners, executives working from home, custom home builders, and residential property managers.",
     problem:
-      "Most front doors fail at the frame, not the lock. Short screws, a thin strike plate and a builder-grade deadbolt make an expensive lock decorative.",
+      "Consumer smart locks drop offline when home Wi-Fi is weak, and builder-grade deadbolts fail at the door frame when secured with half-inch screws.",
     solution:
-      "We look at the whole opening — door, frame, strike, hinges, lock — and upgrade the parts that carry the load. If you have just moved in, we rekey everything to one key on the first visit.",
+      "We pair reliable residential network coverage with commercial-grade physical door security — reinforcing strikes and frames, fitting smart or high-security mechanical locks, and rekeying every opening smoothly.",
     handles: [
-      "Deadbolt and high-security lock installation",
-      "Rekeying after a move, a breakup or a lost key",
-      "Strike plate and frame reinforcement",
-      "Patio, sliding and secondary door security",
-      "Smart lock installation and setup",
-      "Mailbox, cabinet and interior locks",
+      "Smart lock installation integrated with whole-home Wi-Fi & mobile apps",
+      "High-security deadbolt installation and strike/frame reinforcement",
+      "Whole-home rekeying after purchasing a home or tenant turnover",
+      "Restoration-grade mortise lock service for historic Atlanta homes",
+      "Patio, sliding, gate, garage and secondary entrance security",
     ],
   },
   {
@@ -137,20 +136,19 @@ const SERVICES = [
     cardImg: "/assets/mobile-automotive-locksmith-atlanta-car-key-service.jpg",
     img: "/assets/mobile-automotive-locksmith-service-atlanta-night.jpg",
     num: "06",
-    name: "Mobile automotive security",
-    short: "We come to the vehicle. Lockouts, keys and ignition-related work on site.",
-    chips: ["Lockouts", "Key replacement", "Mobile service", "Vehicle security"],
-    who: "Drivers, fleet operators, dealerships and roadside situations.",
+    name: "Commercial fleet & mobile automotive security",
+    short: "On-site fleet key administration, transponder & smart key programming, ignition service, and mobile vehicle lockout response across Atlanta.",
+    chips: ["Commercial Fleet Keys", "Transponder & Fob Programming", "On-Site Mobile Dispatch", "Ignition & Lock Service"],
+    who: "Commercial fleet operators, logistics managers, dealerships, and drivers across metro Atlanta.",
     problem:
-      "The key is inside the car, or lost, or worn to the point where it no longer turns — and the vehicle is not where a shop is.",
+      "A downed service van or lost transponder key takes a vehicle and a driver off the road, and towing a commercial vehicle to a dealership wastes a full workday.",
     solution:
-      "Our mobile service handles automotive work at the vehicle. Tell us the year, make and model when you call and we arrive with the right equipment for it.",
+      "Our mobile automotive units come directly to your yard, office, or roadside location across Atlanta to cut, program, and service keys and ignitions on site.",
     handles: [
-      "Vehicle lockout response",
-      "Replacement and spare key services",
-      "Ignition-related service where applicable",
-      "Fleet key management",
-      "Mobile dispatch across the Atlanta area",
+      "Commercial fleet key duplication, transponder programming & key tracking",
+      "On-site smart key, fob and remote replacement",
+      "Mobile vehicle lockout response across metro Atlanta",
+      "Ignition repair and worn cylinder service on site",
     ],
   },
 ];
@@ -289,7 +287,7 @@ function Header({ active }) {
     <React.Fragment>
       <div className="sh-strip">
         <div className="sh-wrap">
-          <span>Atlanta, Georgia · Residential, commercial, industrial and automotive security</span>
+          <span>Atlanta, Georgia · Enterprise IT Infrastructure, Managed Support &amp; Intelligent Security Solutions</span>
           <span className="sh-row" style={{ gap: "var(--sl-space-lg)" }}>
             <span className="sh-row" style={{ gap: "var(--sl-space-md)" }}>
               <a
@@ -377,7 +375,7 @@ function Header({ active }) {
         }
         actions={
           <React.Fragment>
-            <Button href="/contact" className="sh-hide-sm">Request a security assessment</Button>
+            <Button href="/contact" className="sh-hide-sm">Schedule an IT &amp; Security Audit</Button>
             <button className="sh-burger" aria-label="Open menu" aria-expanded={open} onClick={() => setOpen(true)}><span /></button>
           </React.Fragment>
         }
@@ -444,7 +442,7 @@ function Header({ active }) {
                 <TikTokIcon width={16} height={16} /> TikTok
               </a>
             </div>
-            <Button href="/contact" fullWidth>Request a security assessment</Button>
+            <Button href="/contact" fullWidth>Schedule an IT &amp; Security Audit</Button>
           </div>
         </div>
       )}
@@ -453,9 +451,9 @@ function Header({ active }) {
 }
 
 function ClosingCTA({
-  eyebrow = "GET IN TOUCH",
-  headline = "Let's make your security stronger.",
-  lead = "Tell us what you're trying to protect, what isn't working, or what you need installed. We'll help you figure out the next step.",
+  eyebrow = "SCHEDULE AN AUDIT",
+  headline = "Modernize your IT operations and secure every entry point.",
+  lead = "Whether you need 24/7 managed IT support, a structured cabling & Wi-Fi buildout, cloud integration, or unified IP access control, our engineers will scope the right architecture for your facility.",
 }) {
   return (
     <React.Fragment>
@@ -469,10 +467,10 @@ function ClosingCTA({
           </Reveal>
           <Reveal delay={80} className="sh-stack" style={{ gap: "var(--sl-space-lg)" }}>
             <div className="sh-row">
-              <Button href="/contact">Request a security assessment</Button>
-              <Button variant="outline" href={SITE.phoneHref}>Call {SITE.phone}</Button>
+              <Button href="/contact">Schedule an IT &amp; Security Audit</Button>
+              <Button variant="outline" href="/#estimator">Request a Managed Services Proposal</Button>
             </div>
-            <span className="sh-cap">{SITE.emergency}. {SITE.hours} for scheduled work.</span>
+            <span className="sh-cap">Cisco &amp; CompTIA Certified · {SITE.emergency} · {SITE.phone}</span>
           </Reveal>
         </div>
       </ContentBand>
@@ -493,9 +491,9 @@ function Footer() {
         <div className="sh-stack" style={{ gap: "var(--sl-space-lg)" }}>
           <span className="sh-brand"><img src="/assets/stronghold-lockurity-logo-mark.png" alt="" width="34" height="34" /><b>Stronghold Lockurity</b></span>
           <span style={{ color: "var(--sl-mute)", maxWidth: 300 }}>
-            Physical security, electronic access control and locksmithing for Atlanta homes, businesses, facilities and vehicles. Operating since 2018.
+            Enterprise IT infrastructure, managed helpdesk support, structured cabling, smart access control, and commercial security hardware in Atlanta, GA. Operating since 2018.
           </span>
-          <Button href="/contact" style={{ alignSelf: "flex-start" }}>Request a security assessment</Button>
+          <Button href="/contact" style={{ alignSelf: "flex-start" }}>Schedule an IT &amp; Security Audit</Button>
           <div style={{ display: "flex", alignItems: "center", gap: "var(--sl-space-sm)", marginTop: "var(--sl-space-xs)", flexWrap: "wrap" }}>
             <a
               href={SITE.facebook}

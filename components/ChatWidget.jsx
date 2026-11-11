@@ -307,7 +307,7 @@ export default function ChatWidget() {
           {!session ? (
             <form className="sh-chat-start-form" onSubmit={handleStartChat} noValidate>
               <div className="sh-chat-intro">
-                Have a question about locks, access control, cabling, or IT? Enter your details below to start a live chat with our team.
+                Need Managed IT support, cloud &amp; network deployment, structured cabling, or smart access control? Enter your details below to start a live chat with our engineering team.
               </div>
 
               <div className="sh-chat-field">
@@ -439,15 +439,15 @@ export default function ChatWidget() {
                 >
                   {[
                     "What services do you offer?",
-                    "IT, Wi-Fi & cybersecurity",
-                    "Structured cabling & low-voltage",
-                    "Commercial & master keys",
-                    "Access control & key fobs",
-                    "Residential locks & rekeying",
-                    "Mobile automotive & car keys",
+                    "Managed IT pricing & SLA",
+                    "IT, Cloud & Cybersecurity",
+                    "Structured cabling & Wi-Fi 6",
+                    "Electronic access control & fobs",
+                    "Commercial door hardware",
+                    "Residential & smart locks",
+                    "Fleet & automotive security",
                     "What areas do you serve?",
-                    "Hours & 24/7 emergency service",
-                    "How do quotes & assessments work?",
+                    "Schedule an IT & Security Audit",
                   ].map((topic) => (
                     <button
                       key={topic}

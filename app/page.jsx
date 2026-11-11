@@ -2,22 +2,22 @@ import ClientPage from "@/components/ClientPage";
 import { getLocalBusinessSchema } from "@/lib/seo";
 
 export const metadata = {
-  title: "Stronghold Lockurity — Security hardware, access control and locksmithing in Atlanta, GA",
+  title: "Stronghold Lockurity — Enterprise IT Infrastructure & Intelligent Security Solutions in Atlanta, GA",
   description:
-    "Stronghold Lockurity secures Atlanta homes, businesses, facilities and vehicles with physical security hardware, electronic access control, smart security, structured cabling, IT services and professional locksmithing. Operating since 2018. 24/7 emergency service.",
+    "Stronghold Lockurity delivers 24/7 Managed IT support, cloud integration, cybersecurity, structured Cat6/Fiber cabling, electronic access control, and commercial security hardware in Atlanta, GA. Cisco & CompTIA certified. 99.9% uptime SLA.",
   alternates: { canonical: "/" },
   openGraph: {
     url: "/",
-    title: "Stronghold Lockurity — Security hardware, access control and locksmithing in Atlanta, GA",
+    title: "Stronghold Lockurity — Enterprise IT Infrastructure & Intelligent Security Solutions in Atlanta, GA",
     description:
-      "Stronghold Lockurity secures Atlanta homes, businesses, facilities and vehicles with physical security hardware, electronic access control, smart security, structured cabling, IT services and professional locksmithing. Operating since 2018. 24/7 emergency service.",
-    images: ["https://strongholdlockurity.com/assets/access-control-reader-commercial-entry-door-atlanta.jpg"],
+      "Stronghold Lockurity delivers 24/7 Managed IT support, cloud integration, cybersecurity, structured Cat6/Fiber cabling, electronic access control, and commercial security hardware in Atlanta, GA.",
+    images: ["https://strongholdlockurity.com/assets/it-services-server-rack-infrastructure-atlanta.jpg"],
   },
   twitter: {
-    title: "Stronghold Lockurity — Security hardware, access control and locksmithing in Atlanta, GA",
+    title: "Stronghold Lockurity — Enterprise IT Infrastructure & Intelligent Security Solutions in Atlanta, GA",
     description:
-      "Stronghold Lockurity secures Atlanta homes, businesses, facilities and vehicles with physical security hardware, electronic access control, smart security, structured cabling, IT services and professional locksmithing. Operating since 2018. 24/7 emergency service.",
-    images: ["https://strongholdlockurity.com/assets/access-control-reader-commercial-entry-door-atlanta.jpg"],
+      "Stronghold Lockurity delivers 24/7 Managed IT support, cloud integration, cybersecurity, structured Cat6/Fiber cabling, electronic access control, and commercial security hardware in Atlanta, GA.",
+    images: ["https://strongholdlockurity.com/assets/it-services-server-rack-infrastructure-atlanta.jpg"],
   },
 };
 

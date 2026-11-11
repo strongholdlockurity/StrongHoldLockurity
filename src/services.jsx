@@ -61,9 +61,9 @@ function ServiceSection({ s, flip }) {
             <div className="sh-split" style={{ gap: "var(--sl-space-3xl)", alignItems: "start" }}>
               <div className="sh-stack" style={{ gap: "var(--sl-space-lg)" }}>
                 <h3 className="sh-h4">What we handle</h3>
-                <p className="sh-p-sm" style={{ color: "var(--sl-mute)" }}>Scope varies by property. Tell us the situation and we will confirm what applies.</p>
+                <p className="sh-p-sm" style={{ color: "var(--sl-mute)" }}>Scope is tailored to your infrastructure and facility. Tell us about your environment and we will outline the exact architecture.</p>
                 <div className="sh-row">
-                  <Button href="/contact">Talk to a security expert</Button>
+                  <Button href="/contact">Schedule an IT &amp; Security Audit</Button>
                   <Button variant="ghost" href={SITE.phoneHref}>{SITE.phone}</Button>
                 </div>
               </div>
@@ -89,23 +89,23 @@ function Services() {
       <main id="main">
         <HeroBand
           className="sh-hero"
-          eyebrow="SERVICES"
-          headline="Security solutions for every point of entry."
-          lead="Six service lines covering residential, commercial & industrial IT, physical hardware, electronic access, cabling infrastructure, and vehicles. Start with the one closest to your situation — if it sits between two, that is normal, and we handle both."
+          eyebrow="ENTERPRISE TECHNICAL SERVICES"
+          headline="IT infrastructure & intelligent security offerings."
+          lead="From 24/7 managed IT helpdesk, cloud integration, and structured Cat6/Fiber cabling to IP access control and commercial door hardware — engineered and supported under a single SLA."
           actions={
             <React.Fragment>
-              <Button href="/contact">Request a security assessment</Button>
-              <Button variant="outline" href="#it-services">See all six services</Button>
+              <Button href="/contact">Schedule an IT &amp; Security Audit</Button>
+              <Button variant="outline" href="/#estimator">Estimate Managed IT Pricing</Button>
             </React.Fragment>
           }
-          note={`24/7 emergency service · ${SITE.phone}`}
+          note={`Cisco & CompTIA Certified · ${SITE.emergency} · ${SITE.phone}`}
         />
         <SubNav />
         {SERVICES.map((s, i) => (<ServiceSection key={s.id} s={s} flip={i % 2 === 1} />))}
         <ClosingCTA
-          eyebrow="NOT SURE WHICH ONE"
-          headline="Describe the problem. We'll tell you which service it is."
-          lead="Most requests start with a door that isn't working, a key that shouldn't exist, or a building that changed hands. You don't need to categorise it first."
+          eyebrow="CUSTOM ARCHITECTURE"
+          headline="Need a unified IT and physical security roadmap?"
+          lead="Most projects span network switches, structured cabling, cloud identity, and door hardware. Book an audit and our engineers will scope the entire stack."
         />
       </main>
       <Footer />

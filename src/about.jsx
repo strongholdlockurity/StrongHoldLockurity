@@ -18,13 +18,14 @@ const BELIEFS = [
 ];
 
 const DISCIPLINES = [
-  "Commercial locksmithing", "Master key system design", "Access control installation",
-  "Electronic and smart locks", "Residential hardware", "Door and frame repair",
-  "Automotive locksmithing", "Mobile dispatch", "Estimating and site survey",
-  "Structured cabling and low-voltage", "Termination and testing",
-  "Cyber-security & network hardening", "Cloud implementations & migrations",
-  "Workstation support (Windows, Linux, Mac)", "VLAN segmentation & IoT isolation",
-  "Scheduling and client service", "Emergency response", "Key control administration",
+  "24/7 Managed IT & Tier 1–3 Helpdesk", "Cisco & CompTIA Certified Engineering",
+  "Cyber-security & network hardening", "Cloud implementations (M365 & Workspace)",
+  "SOC2, HIPAA & PCI compliance readiness", "VLAN segmentation & Zero-Trust VPNs",
+  "Structured Cat6/Fiber cabling", "Server rack buildouts & certification",
+  "Workstation support (Windows, Linux, macOS)", "IP access control & directory sync",
+  "4K AI cloud video surveillance", "Electrified door hardware & maglocks",
+  "Commercial Grade-1 door hardware", "Master key system architecture",
+  "Residential smart home & security", "Commercial fleet & automotive keys",
 ];
 
 const IT_OPTIONS = [
@@ -73,29 +74,29 @@ function About() {
       <main id="main">
         <HeroBand
           className="sh-hero"
-          eyebrow="ABOUT"
-          headline="Security is only as strong as the people behind it."
-          lead="Stronghold Lockurity is a twelve-person security and IT infrastructure company in Atlanta. We install physical hardware, build electronic access control, engineer enterprise IT systems, and provide locksmithing across residential, commercial, industrial and automotive work."
-          actions={<Button href="/contact">Talk to a security expert</Button>}
-          aside={<Reveal delay={120}><Shot priority id="about-hero" variant="sh-shot-wide" src="/assets/stronghold-lockurity-security-technicians-commercial-door-install.jpg" alt="Stronghold Lockurity technicians installing a door closer and electronic lock on a commercial door" placeholder="Image — the team, a service vehicle, or a technician on an install" /></Reveal>}
+          eyebrow="ABOUT STRONGHOLD"
+          headline="Enterprise IT engineers and physical security specialists under one roof."
+          lead="Stronghold Lockurity is a twelve-person IT infrastructure and intelligent security firm in Atlanta. Backed by Cisco and CompTIA certifications and a 99.9% uptime SLA, we manage cloud and network environments, pull structured cabling, deploy IP access control, and engineer commercial door hardware."
+          actions={<Button href="/contact">Schedule an IT &amp; Security Audit</Button>}
+          aside={<Reveal delay={120}><Shot priority id="about-hero" variant="sh-shot-wide" src="/assets/it-network-engineer-commercial-industrial-setup-atlanta.jpg" alt="Stronghold Lockurity engineer configuring enterprise network and security infrastructure in Atlanta" placeholder="Image — IT & security engineering team" /></Reveal>}
         />
 
-        <ContentBand className="sh-band" eyebrow="OUR STORY" headline="Operating in Atlanta since 2018.">
+        <ContentBand className="sh-band" eyebrow="OUR EVOLUTION" headline="Operating in Atlanta since 2018 — built for the hybrid era.">
           <div className="sh-split">
             <Reveal className="sh-stack" style={{ gap: "var(--sl-space-lg)" }}>
               <p className="sh-p">
-                The company started in 2018 doing what most locksmiths do: rekeys, lockouts, hardware swaps. The work changed as the requests did. Clients who called about a broken deadbolt also wanted to know why three former employees still had keys, and whether the reader at the back door could be tied to the same system.
+                Stronghold began in 2018 securing physical openings across Atlanta. As commercial facilities moved from brass keys to IP door controllers, cloud identity directories, and PoE surveillance, clients kept running into the same wall: their Managed IT provider stopped at the patch panel, and their door contractor didn't understand VLANs, firewalls, or Active Directory.
               </p>
               <p className="sh-p">
-                So the capability grew in that direction — from mechanical hardware into electronic access control, from single doors into buildings, and from structured cabling into full-stack IT infrastructure, cybersecurity, and cloud implementations. The automotive side stayed mobile, because vehicles rarely break down somewhere convenient.
+                We built Stronghold to close that gap. Today our team leads with enterprise Managed IT support, cybersecurity hardening, cloud migrations, and certified structured cabling — seamlessly integrated with electronic access control and commercial door hardware.
               </p>
             </Reveal>
             <Reveal delay={80} className="sh-stack" style={{ gap: "var(--sl-space-lg)" }}>
               <p className="sh-p">
-                Today the team is twelve people. That is deliberate. It is large enough to cover commercial installs, emergency calls, IT rollouts and mobile automotive work in the same week, and small enough that the person who surveys your building is connected to the person who installs the hardware.
+                Our twelve-person in-house roster pairs Cisco and CompTIA certified network engineers with master low-voltage and physical security technicians. That allows us to support a 99.9% network uptime SLA, guide SMBs and clinics through SOC2 and HIPAA compliance, and service the physical door assembly on the same ticket.
               </p>
               <p className="sh-p">
-                We are not a franchise, and we are not a dispatch board selling your call to whoever is nearest. When you phone Stronghold Lockurity you are speaking to the company that does the work.
+                We are not a franchise, and we never outsource your infrastructure to a third-party dispatch board. When you partner with Stronghold Lockurity, you work directly with the engineers who design, cable, and manage your environment.
               </p>
             </Reveal>
           </div>

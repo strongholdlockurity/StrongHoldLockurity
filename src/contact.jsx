@@ -2,15 +2,24 @@
 import "./boot";
 
 const NEEDS = [
-  "Residential, commercial & industrial IT services",
-  "Structured cabling & low-voltage",
-  "Commercial & B2B locksmithing",
+  "Managed IT support, cloud & cybersecurity",
+  "Structured cabling & network infrastructure",
   "Electronic access control & smart security",
-  "Residential physical security",
-  "Mobile automotive security",
+  "Commercial door hardware & B2B locksmithing",
+  "Residential physical security & smart home",
+  "Commercial fleet & mobile automotive security",
+  "Full Hybrid IT & Security Audit",
   "Not sure yet"
 ];
-const PROPERTY = ["Residential", "Commercial", "Industrial", "Automotive", "Other"];
+const PROPERTY = [
+  "Corporate Office / SMB",
+  "Healthcare / Regulated Facility",
+  "Commercial / Multi-Tenant Property",
+  "Industrial / Warehouse",
+  "Residential",
+  "Automotive / Fleet",
+  "Other"
+];
 
 function Field({ id, label, optional, error, children, hint }) {
   return (
@@ -32,6 +41,22 @@ function ContactForm() {
   const [fatal, setFatal] = React.useState("");
   const [cap, setCap] = React.useState(() => ({ a: 2 + Math.floor(Math.random() * 8), b: 2 + Math.floor(Math.random() * 8) }));
   const t0 = React.useRef(Date.now());
+  React.useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const qNeed = params.get("need");
+      const qScope = params.get("scope");
+      if (qNeed || qScope) {
+        setV((prev) => ({
+          ...prev,
+          need: qNeed && NEEDS.includes(qNeed) ? qNeed : prev.need,
+          message: qScope ? `${qScope}\n\nAdditional details: ` : prev.message,
+        }));
+      }
+    } catch {
+      // Ignore URL parsing errors
+    }
+  }, []);
   const set = (k) => (e) => { setV({ ...v, [k]: e.target.value }); if (err[k]) setErr({ ...err, [k]: null }); };
   const check = (state) => {
     const e = {};
@@ -155,7 +180,7 @@ function ContactForm() {
         </div>
         {fatal && <p className="sh-err" role="alert" style={{ margin: 0 }}>{fatal}</p>}
         <div className="sh-row" style={{ justifyContent: "space-between" }}>
-          <Button type="submit" disabled={busy}>{busy ? "Sending…" : "Request a security assessment"}</Button>
+          <Button type="submit" disabled={busy}>{busy ? "Sending…" : "Schedule an IT & Security Audit"}</Button>
           <span className="sh-cap" style={{ maxWidth: 320 }}>We use your details to answer this request. Nothing else.</span>
         </div>
       </form>
@@ -180,10 +205,10 @@ function Contact() {
         <HeroBand
           className="sh-hero"
           style={{ paddingBottom: "var(--sl-space-3xl)" }}
-          eyebrow="CONTACT"
-          headline="Tell us what you need secured."
-          lead="Whether you need a locksmith, new access control, upgraded door hardware, or help figuring out the right security solution, tell us what's going on."
-          note={`24/7 emergency service · ${SITE.phone}`}
+          eyebrow="SCHEDULE CONSULTATION & AUDIT"
+          headline="Ready to upgrade your IT & security infrastructure?"
+          lead="Book a comprehensive IT & Security Audit or request a Managed Services Proposal. Our engineers will review your network topology, cloud setup, structured cabling, and physical access points."
+          note={`Cisco & CompTIA Certified · ${SITE.emergency} · ${SITE.phone}`}
         />
         <section className="sh-band" style={{ paddingTop: 0 }}>
           <div className="sh-wrap sh-split-4-6" style={{ gap: "var(--sl-space-4xl)", alignItems: "start", gridTemplateColumns: "minmax(0,1.6fr) minmax(0,1fr)" }}>
