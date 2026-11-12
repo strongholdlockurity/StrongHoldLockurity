@@ -11,6 +11,7 @@
 - **Email:** stronghold@strongholdlockurity.com
 - **Scheduled Hours:** Monday–Saturday, 9:00 AM – 6:00 PM EST (24/7/365 NOC Monitoring & Emergency Security Dispatch)
 - **Certifications & Trust Signals:** Cisco & CompTIA (A+, Network+, Security+) Certified Engineers, Licensed & Insured Georgia Physical Security Technicians, 99.9% Network Uptime SLA, SOC2 & HIPAA Physical + Digital Compliance Readiness
+- **Enterprise, Financial & Public Sector Experience:** Fortinet, Cisco, Microsoft, Google, Bank of America, AT&T, Rollins, ENTRUST, CO-OP, Georgia Technology Authority (GTA), and Muscogee County School District
 - **Full LLM Reference:** [https://strongholdlockurity.com/llms-full.txt](https://strongholdlockurity.com/llms-full.txt)
 
 ## Core Services (Ordered by Practice Priority)

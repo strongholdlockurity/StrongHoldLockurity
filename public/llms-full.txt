@@ -25,6 +25,7 @@ Most organizations are forced to hire three or four disconnected vendors—an MS
 - **Scheduled Field & Office Hours:** Monday–Saturday, 9:00 AM – 6:00 PM EST
 - **Emergency & NOC Coverage:** 24/7/365 Managed IT NOC monitoring and emergency security/lockout dispatch across metro Atlanta
 - **Team Size:** 12 specialists (Cisco & CompTIA certified network/systems engineers and licensed Georgia physical security technicians)
+- **Enterprise, Financial & Public Sector Experience:** Fortinet, Cisco, Microsoft, Google, Bank of America, AT&T, Rollins, ENTRUST, CO-OP, Georgia Technology Authority (GTA), and Muscogee County School District
 
 ---
 

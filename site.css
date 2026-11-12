@@ -78,6 +78,33 @@ a:hover{color:var(--sl-text-link-hover)}
 .sh-metric:first-child{border-left:0;padding-left:0}
 .sh-metric b{display:block;font-family:var(--sl-font-mono);font-size:var(--sl-display-md-size);font-weight:500;color:var(--sl-ink-strong);letter-spacing:-.5px;margin-bottom:var(--sl-space-sm)}
 
+/* Social proof client & enterprise partner logo carousel */
+.sh-logos-band{padding:var(--sl-space-3xl) 0 var(--sl-space-2xl);border-bottom:1px solid var(--sl-hairline);background:var(--sl-canvas);overflow:hidden}
+.sh-logos-head{display:flex;align-items:center;justify-content:space-between;gap:var(--sl-space-lg);margin-bottom:var(--sl-space-xl);padding:0 var(--sl-space-3xl);flex-wrap:wrap}
+.sh-logos-eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:var(--sl-font-mono);font-size:var(--sl-caption-size);letter-spacing:1.8px;text-transform:uppercase;color:var(--sl-mute)}
+.sh-logos-eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--sl-primary);box-shadow:0 0 0 3px rgba(0,217,146,.18)}
+.sh-logos-sub{font-family:var(--sl-font-mono);font-size:var(--sl-caption-size);color:var(--sl-mute)}
+.sh-logos-viewport{position:relative;width:100%;overflow:hidden;mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%);-webkit-mask-image:linear-gradient(to right,transparent 0,#000 8%,#000 92%,transparent 100%)}
+.sh-logos-track{display:flex;align-items:stretch;gap:var(--sl-space-lg);width:max-content;animation:sh-logo-marquee 46s linear infinite;padding:4px 0}
+.sh-logos-viewport:hover .sh-logos-track,.sh-logos-viewport:focus-within .sh-logos-track{animation-play-state:paused}
+.sh-logo-card{display:inline-flex;align-items:center;gap:12px;height:64px;padding:0 24px;background:var(--sl-canvas-soft);border:1px solid var(--sl-hairline);border-radius:var(--sl-radius-sm);color:var(--sl-body);opacity:.78;transition:border-color 220ms ease,color 220ms ease,opacity 220ms ease,transform 220ms ease,box-shadow 220ms ease;user-select:none;flex-shrink:0}
+.sh-logo-card:hover{opacity:1;color:var(--sl-ink-strong);border-color:var(--sl-primary);box-shadow:var(--sl-elev-2);transform:translateY(-2px)}
+.sh-logo-card svg{flex-shrink:0;display:block}
+.sh-logo-card:hover .sh-logo-accent{color:var(--sl-primary)}
+.sh-logo-accent{color:var(--sl-body);transition:color 220ms ease}
+@keyframes sh-logo-marquee{
+  0%{transform:translate3d(0,0,0)}
+  100%{transform:translate3d(-50%,0,0)}
+}
+@media (max-width:768px){
+  .sh-logos-head{padding:0 var(--sl-space-xl)}
+  .sh-logo-card{height:56px;padding:0 18px}
+}
+@media (prefers-reduced-motion:reduce){
+  .sh-logos-track{animation:none;flex-wrap:wrap;justify-content:center;width:100%;padding:0 var(--sl-space-xl)}
+  .sh-logos-viewport{mask-image:none;-webkit-mask-image:none}
+}
+
 /* Signature — access layers */
 .sh-layers{position:relative}
 .sh-layers-sticky{position:sticky;top:88px}

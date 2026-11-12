@@ -410,6 +410,227 @@ const METRICS = [
   ["Since 2018", "Operating in Atlanta with a twelve-person in-house IT engineering, cabling, and security hardware team."],
 ];
 
+const CLIENT_LOGOS = [
+  {
+    name: "Fortinet",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="26" height="20" viewBox="0 0 26 20" fill="none" aria-hidden="true">
+          <rect x="0" y="0" width="7" height="5" rx="1.2" fill="currentColor" />
+          <rect x="9.5" y="0" width="7" height="5" rx="1.2" fill="currentColor" />
+          <rect x="19" y="0" width="7" height="5" rx="1.2" fill="currentColor" />
+          <rect x="0" y="7.5" width="7" height="5" rx="1.2" fill="currentColor" />
+          <rect x="19" y="7.5" width="7" height="5" rx="1.2" fill="currentColor" />
+          <rect x="0" y="15" width="7" height="5" rx="1.2" fill="currentColor" />
+          <rect x="9.5" y="15" width="7" height="5" rx="1.2" fill="currentColor" />
+          <rect x="19" y="15" width="7" height="5" rx="1.2" fill="currentColor" />
+        </svg>
+        <span style={{ fontWeight: 700, letterSpacing: "1.6px", fontSize: 15 }}>FORTINET</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "Cisco",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="34" height="20" viewBox="0 0 34 20" fill="none" aria-hidden="true">
+          <rect x="1" y="11" width="2.2" height="6" rx="1.1" fill="currentColor" />
+          <rect x="5" y="7" width="2.2" height="10" rx="1.1" fill="currentColor" />
+          <rect x="9" y="3" width="2.2" height="14" rx="1.1" fill="currentColor" />
+          <rect x="13" y="7" width="2.2" height="10" rx="1.1" fill="currentColor" />
+          <rect x="17" y="11" width="2.2" height="6" rx="1.1" fill="currentColor" />
+          <rect x="21" y="7" width="2.2" height="10" rx="1.1" fill="currentColor" />
+          <rect x="25" y="3" width="2.2" height="14" rx="1.1" fill="currentColor" />
+          <rect x="29" y="7" width="2.2" height="10" rx="1.1" fill="currentColor" />
+        </svg>
+        <span style={{ fontWeight: 700, letterSpacing: "2px", fontSize: 16 }}>CISCO</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "Microsoft",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <rect x="0" y="0" width="9" height="9" fill="currentColor" />
+          <rect x="11" y="0" width="9" height="9" fill="currentColor" opacity="0.82" />
+          <rect x="0" y="11" width="9" height="9" fill="currentColor" opacity="0.82" />
+          <rect x="11" y="11" width="9" height="9" fill="currentColor" opacity="0.65" />
+        </svg>
+        <span style={{ fontWeight: 600, letterSpacing: "-0.2px", fontSize: 16.5 }}>Microsoft</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "Google",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path
+            d="M21.6 12.23c0-.71-.06-1.4-.18-2.05H12v3.88h5.38a4.6 4.6 0 0 1-2 3.02v2.5h3.24c1.89-1.74 2.98-4.3 2.98-7.35Z"
+            fill="currentColor"
+          />
+          <path
+            d="M12 22c2.7 0 4.96-.9 6.62-2.42l-3.24-2.5c-.9.6-2.04.95-3.38.95-2.6 0-4.8-1.76-5.59-4.12H3.06v2.58A9.99 9.99 0 0 0 12 22Z"
+            fill="currentColor"
+            opacity="0.85"
+          />
+          <path
+            d="M6.41 13.91a6.01 6.01 0 0 1 0-3.82V7.51H3.06a9.99 9.99 0 0 0 0 8.98l3.35-2.58Z"
+            fill="currentColor"
+            opacity="0.7"
+          />
+          <path
+            d="M12 5.97c1.47 0 2.78.5 3.82 1.5l2.86-2.86C16.96 2.99 14.7 2 12 2 8.09 2 4.71 4.24 3.06 7.51l3.35 2.58C7.2 7.73 9.4 5.97 12 5.97Z"
+            fill="currentColor"
+            opacity="0.9"
+          />
+        </svg>
+        <span style={{ fontWeight: 600, letterSpacing: "-0.3px", fontSize: 17 }}>Google</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "Bank of America",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="26" height="18" viewBox="0 0 26 18" fill="none" aria-hidden="true">
+          <path d="M2 5L11 1.5L14 4L5 7.5L2 5Z" fill="currentColor" opacity="0.75" />
+          <path d="M7 9.5L16 6L19 8.5L10 12L7 9.5Z" fill="currentColor" />
+          <path d="M12 14L21 10.5L24 13L15 16.5L12 14Z" fill="currentColor" opacity="0.85" />
+        </svg>
+        <span style={{ fontWeight: 700, letterSpacing: "1.1px", fontSize: 14 }}>BANK OF AMERICA</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "AT&T",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.6" />
+          <path d="M3.5 8.5C7 10.3 17 10.3 20.5 8.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+          <path d="M2.4 12C6.8 14 17.2 14 21.6 12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+          <path d="M4 15.5C7.8 17.2 16.2 17.2 20 15.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
+        <span style={{ fontWeight: 700, letterSpacing: "0.8px", fontSize: 16 }}>AT&amp;T</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "Rollins",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="20" height="22" viewBox="0 0 20 22" fill="none" aria-hidden="true">
+          <path
+            d="M10 1.5L18.5 5V11.2C18.5 16.1 14.9 19.6 10 21C5.1 19.6 1.5 16.1 1.5 11.2V5L10 1.5Z"
+            stroke="currentColor"
+            strokeWidth="1.8"
+          />
+          <path d="M7 15V7H11C12.5 7 13.5 7.9 13.5 9.3C13.5 10.6 12.6 11.4 11.2 11.5L13.8 15" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <span style={{ fontWeight: 700, letterSpacing: "1.8px", fontSize: 15 }}>ROLLINS</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "ENTRUST",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <polygon
+            points="12,2 21,7 21,17 12,22 3,17 3,7"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            fill="none"
+          />
+          <path d="M8.5 9H15.5M8.5 12H14M8.5 15H15.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+        </svg>
+        <span style={{ fontWeight: 700, letterSpacing: "2px", fontSize: 15 }}>ENTRUST</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "CO-OP",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="26" height="20" viewBox="0 0 26 20" fill="none" aria-hidden="true">
+          <circle cx="9.5" cy="10" r="6.5" stroke="currentColor" strokeWidth="2" />
+          <circle cx="16.5" cy="10" r="6.5" stroke="currentColor" strokeWidth="2" opacity="0.8" />
+        </svg>
+        <span style={{ fontWeight: 700, letterSpacing: "1.4px", fontSize: 15.5 }}>CO-OP</span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "Georgia Technology Authority",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3L4 8H20L12 3Z" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
+          <path d="M6 8V17M10 8V17M14 8V17M18 8V17" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+          <path d="M3 20H21" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+        </svg>
+        <span style={{ display: "flex", flexDirection: "column", lineHeight: 1.15 }}>
+          <strong style={{ fontSize: 12.5, letterSpacing: "1px", fontWeight: 700 }}>GEORGIA TECHNOLOGY</strong>
+          <span style={{ fontSize: 10.5, letterSpacing: "1.6px", opacity: 0.8, fontFamily: "var(--sl-font-mono)" }}>
+            AUTHORITY (GTA)
+          </span>
+        </span>
+      </React.Fragment>
+    ),
+  },
+  {
+    name: "Muscogee County School District",
+    render: () => (
+      <React.Fragment>
+        <svg className="sh-logo-accent" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 3L2 8L12 13L22 8L12 3Z" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
+          <path d="M6 10.5V16.5C6 18.5 8.7 20 12 20C15.3 20 18 18.5 18 16.5V10.5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+        </svg>
+        <span style={{ display: "flex", flexDirection: "column", lineHeight: 1.15 }}>
+          <strong style={{ fontSize: 12.5, letterSpacing: "0.9px", fontWeight: 700 }}>MUSCOGEE COUNTY</strong>
+          <span style={{ fontSize: 10.5, letterSpacing: "1.4px", opacity: 0.8, fontFamily: "var(--sl-font-mono)" }}>
+            SCHOOL DISTRICT
+          </span>
+        </span>
+      </React.Fragment>
+    ),
+  },
+];
+
+function ClientLogoCarousel() {
+  return (
+    <section
+      className="sh-logos-band"
+      aria-label="Organizations and technology ecosystems our engineers have supported and deployed"
+    >
+      <div className="sh-wrap sh-logos-head">
+        <span className="sh-logos-eyebrow">
+          TRUSTED EXPERIENCE ACROSS ENTERPRISE, FINANCIAL, PUBLIC SECTOR &amp; GLOBAL TECH ECOSYSTEMS
+        </span>
+        <span className="sh-logos-sub">11+ Enterprise &amp; Institutional Environments</span>
+      </div>
+      <div className="sh-logos-viewport">
+        <div className="sh-logos-track">
+          {[0, 1].map((pass) =>
+            CLIENT_LOGOS.map((item) => (
+              <div
+                className="sh-logo-card"
+                key={`${pass}-${item.name}`}
+                aria-hidden={pass === 1 ? "true" : undefined}
+                title={item.name}
+              >
+                {item.render()}
+              </div>
+            ))
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const STEPS = [
   ["01", "Schedule an IT & Security Audit", "Request a proposal or book an on-site audit. Tell us about your endpoints, network topology, compliance goals, or facility openings."],
   ["02", "We audit the full stack", "Our engineers evaluate your firewall, switches, Wi-Fi coverage, structured cabling, and physical door access points to find the real bottlenecks and risks."],
@@ -479,6 +700,8 @@ function Home() {
             </Reveal>
           </div>
         </section>
+
+        <ClientLogoCarousel />
 
         <ContentBand
           className="sh-band"

@@ -46,6 +46,12 @@ export default function Page() {
           multi-tenant properties, and homeowners: Managed IT Support &amp; Cloud Cybersecurity, Structured Cat6/Fiber
           Cabling, Electronic Access Control &amp; Cloud CCTV, and Commercial Grade-1 Door Hardware.
         </p>
+        <h2>Enterprise, Financial &amp; Public Sector Experience</h2>
+        <p>
+          Trusted experience across enterprise, financial, telecommunications, and public sector environments, including
+          Fortinet, Cisco, Microsoft, Google, Bank of America, AT&amp;T, Rollins, ENTRUST, CO-OP, Georgia Technology
+          Authority (GTA), and Muscogee County School District.
+        </p>
         <h2>Core Services</h2>
         <ul>
           {SERVICES_CATALOG.map((s) => (
